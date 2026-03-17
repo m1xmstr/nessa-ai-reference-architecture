@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-web
+  namespace: private-ai-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: ai-web
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: ai-web
+    spec:
+      containers:
+      - name: web
+        image: quay.io/example/private-ai-web:latest
+        ports:
+        - containerPort: 8080
+        envFrom:
+        - configMapRef:
+            name: app-config
+        command:
+        - python
+        - -m
+        - gunicorn
+        - -w
+        - "1"
+        - --threads
+        - "16"
+        - -k
+        - gthread
+        - -b
+        - 0.0.0.0:8080
+        - wsgi:app
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 10
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 30
+          periodSeconds: 20
+        resources:
+          requests:
+            cpu: 250m
+            memory: 512Mi
+          limits:
+            cpu: "2"
+            memory: 2Gi

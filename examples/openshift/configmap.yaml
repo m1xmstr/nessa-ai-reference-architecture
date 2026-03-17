@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: private-ai-app
+data:
+  APP_VERSION: v0.1.0
+  APP_ENV: production
+  DB_BACKEND: postgres
+  WEB_CONCURRENCY: "4"
+  WEB_THREADS: "4"
+  ENABLE_STREAMING: "1"
+  INFERENCE_GATEWAY_ENDPOINTS: "http://ai-inference-gateway:8081,http://cpu-fallback:8080/v1/chat/completions"
+  DEFAULT_MODEL_CLASS: compact
