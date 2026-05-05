@@ -19,6 +19,7 @@ Start with:
 - [12-license-and-attribution.md](./12-license-and-attribution.md)
 - [14-hardware-and-model-lab.md](./14-hardware-and-model-lab.md)
 - [15-smart-home-and-home-assistant.md](./15-smart-home-and-home-assistant.md)
+- [18-camera-ux-design.md](./18-camera-ux-design.md)
 
 Diagrams:
 
@@ -39,3 +40,4 @@ Hardware and model-lab highlights:
 Smart Home highlights:
 
 - [15-smart-home-and-home-assistant.md](./15-smart-home-and-home-assistant.md)
+- [18-camera-ux-design.md](./18-camera-ux-design.md)

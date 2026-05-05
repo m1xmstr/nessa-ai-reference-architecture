@@ -240,6 +240,7 @@ Primary public reference docs:
 - [docs/15-smart-home-and-home-assistant.md](./docs/15-smart-home-and-home-assistant.md)
 - [docs/16-nessaclaw-design-philosophy.md](./docs/16-nessaclaw-design-philosophy.md)
 - [docs/17-hardware-and-model-lab.md](./docs/17-hardware-and-model-lab.md)
+- [docs/18-camera-ux-design.md](./docs/18-camera-ux-design.md)
 
 Diagrams:
 
