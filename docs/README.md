@@ -21,6 +21,7 @@ Start with:
 - [15-smart-home-and-home-assistant.md](./15-smart-home-and-home-assistant.md)
 - [18-camera-ux-design.md](./18-camera-ux-design.md)
 - [19-mobile-ux-and-continuity-patterns.md](./19-mobile-ux-and-continuity-patterns.md)
+- [20-models-and-model-lab.md](./20-models-and-model-lab.md)
 
 Diagrams:
 
@@ -37,6 +38,7 @@ Hardware and model-lab highlights:
 - [08-ocr-ai-vision-public-pattern.md](./08-ocr-ai-vision-public-pattern.md)
 - [11-benchmark-results.md](./11-benchmark-results.md)
 - [14-hardware-and-model-lab.md](./14-hardware-and-model-lab.md)
+- [20-models-and-model-lab.md](./20-models-and-model-lab.md)
 
 Smart Home highlights:
 

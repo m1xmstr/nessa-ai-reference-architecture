@@ -146,9 +146,9 @@ Public-safe model-lab steps:
 5. measure cold load, warm load, time-to-first-token, token cadence, task quality, OCR/vision behavior, and safety behavior
 6. promote only after staging proof
 
-Representative public-safe model families include Qwen, Qwen VL, Gemma, DeepSeek R1 distilled models, GPT-OSS 120B, FLUX/MLX image models, and embedding models.
+Representative public-safe model families include Qwen, Qwen VL, Gemma, DeepSeek R1 distilled models, GPT-OSS 120B, FLUX/MLX image models, and embedding models. The current public Gemma 4 answer is `gemma4:26b` on the cluster lane, with `gemma4:e4b-mlx` tracked on the Apple Silicon / MLX lane.
 
-See [docs/14-hardware-and-model-lab.md](./docs/14-hardware-and-model-lab.md) and [docs/11-benchmark-results.md](./docs/11-benchmark-results.md).
+See [docs/20-models-and-model-lab.md](./docs/20-models-and-model-lab.md), [docs/14-hardware-and-model-lab.md](./docs/14-hardware-and-model-lab.md), and [docs/11-benchmark-results.md](./docs/11-benchmark-results.md).
 
 ## Linked Devices and Private Compute
 

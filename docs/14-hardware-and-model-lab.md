@@ -169,6 +169,8 @@ Representative public-safe model families evaluated or tracked in this program i
 | FLUX / MLX image models | private image-generation experiments | Apple Silicon MLX/DiffusionKit builds were a practical local image lane |
 | Embedding models | retrieval and document search support | small models can be as important as large chat models |
 
+The current public Gemma 4 answer is `gemma4:26b` on the cluster lane, with `gemma4:e4b-mlx` tracked on the Apple Silicon / MLX lane. See [20-models-and-model-lab.md](./20-models-and-model-lab.md) for the public-safe models page.
+
 The public repo does not publish private prompt suites, private eval data, account-specific routing, or model-selection heuristics.
 
 Public model-card examples:
