@@ -14,6 +14,8 @@ Useful public pattern:
 - guide step by step
 - ask what the learner knows
 - give hints before final answers where appropriate
+- anchor the hint or explanation to the exact visible worksheet problem
+- correct OCR or vision ambiguity before building the explanation
 - keep explanations age and family appropriate
 - preserve student trust and parent trust
 
@@ -38,6 +40,7 @@ For a family product, the following are serious defects:
 - giving unsafe content to children
 - dumping answers when the surface promises teaching
 - pretending to understand a worksheet when OCR or vision failed
+- repeating generic scaffold text instead of responding to the student's exact hint or explanation request
 - losing context without saying so
 - exposing private family data
 - routing private learning content externally without explicit user choice

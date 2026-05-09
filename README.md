@@ -99,6 +99,8 @@ The production product has evolved beyond the original CPU-first cluster. Curren
 - NessaClaw as Nessa's guarded private agent-workspace surface over OpenClaw-compatible infrastructure, starting with safe missions and an always-visible stop control
 - family-safe Learning and Homework Buddy principles without exposing lesson-flow implementation
 
+Recent public-safe validation note, 2026-05-09: Nessa's private release process caught and repaired a set of product-path regressions around personality media responses, Learning worksheet OCR anchoring, and Linked Device model-inventory truth. The public lesson is simple: visible AI features should either return a real artifact, explain a real limitation, or be hidden. Public docs intentionally omit the private route, account, worksheet, and connector details.
+
 ## Hardware Lab at a Glance
 
 | Hardware lane | Role | Excels At | Public-safe lesson |
@@ -207,6 +209,7 @@ The public pattern is:
 - preserve age and family appropriateness
 - support worksheets, photos, and documents with privacy-first routing where possible
 - treat trust failures as P0 defects
+- anchor help to the specific visible problem and correct OCR/vision ambiguity before answering
 - avoid publishing lesson-state schemas, prompt chains, parsers, anti-cheat logic, or tutor flow mechanics
 
 See [docs/07-learning-and-family-safety.md](./docs/07-learning-and-family-safety.md) and [docs/FAMILY_AI_SAFETY_PATTERNS.md](./docs/FAMILY_AI_SAFETY_PATTERNS.md).

@@ -6,13 +6,15 @@ It explains representative model families, current validated model names, why th
 
 ## Current Public Answer
 
-As of the 2026-05-07 CDT public-doc sync, the public answer to "which Gemma 4 model is Nessa using?" is:
+As of the 2026-05-09 CDT public-doc sync, the public answer to "which Gemma 4 model is Nessa using?" is:
 
 - the cluster-side Gemma 4 label is currently `gemma4:26b`
 - the Apple Silicon / MLX model lab also tracks `gemma4:e4b-mlx`
 - these are model-lab artifacts and product lanes, not a promise that every request or every account uses the same model
 
-The live OpenShift inference lane was verified with `gemma4:26b` and `qwen2.5:7b` warm on GPU with a 32k context window. The live M5 Max Linked Device record was also current, healthy, and reporting Apple M5 Max hardware, 128 GB unified memory, Metal runtime support, and MLX availability.
+The live OpenShift inference lane was verified with `gemma4:26b`, `qwen2.5:7b`, and embeddings in active use across the recent release window. The live M5 Max Linked Device record was also current, healthy, and reporting Apple M5 Max hardware, 128 GB unified memory, Metal runtime support, and MLX availability.
+
+The 2026-05-09 validation pass also tightened a public-safe model-lab rule: device inventories should advertise only models that are actually installed and ready. For private vision/document work, the current public-safe Mac vision note is that `qwen2.5vl:7b` is the installed preferred lane. Stale unavailable model labels should be filtered from readiness displays instead of retried silently.
 
 ## How To Read This Page
 
@@ -90,6 +92,7 @@ Before Nessa talks about a model publicly, the model should have enough evidence
 8. Staging proof before production exposure when the model affects a product path.
 9. Browser or real-user-path proof for visible product behavior.
 10. Logs checked after promotion.
+11. Readiness truth: visible model labels should reflect installed, routable, recently healthy models rather than stale inventory.
 
 This is why a direct benchmark can be promising and still not become a product lane. A model must survive the real request path, not only a lab prompt.
 
@@ -112,13 +115,14 @@ That boundary is deliberate. Public readers should understand the architecture a
 
 ## Current Lab Snapshot
 
-Public-safe snapshot from the 2026-05-07 CDT sync:
+Public-safe snapshot from the 2026-05-09 CDT sync:
 
 - Strix Halo / Ryzen AI Max+ 395, 128 GB remains the OpenShift AI worker lane for cluster-side local inference and model-serving experiments.
 - MacBook Pro M5 Max, 128 GB remains the Apple Silicon Linked Device lane for private MLX/Metal, vision, image, and high-memory local model tests.
-- The live cluster warm set included `qwen2.5:7b` and `gemma4:26b`.
+- The recent live cluster warm set included `qwen2.5:7b`, `gemma4:26b`, and `nomic-embed-text`.
 - The live cluster model list included `gemma4:26b`, `qwen2.5:7b`, `qwen2.5:32b`, Qwen VL 3B/7B artifacts, Qwen3 Coder 30B, and `nomic-embed-text`.
 - The current public Gemma 4 answer is `gemma4:26b` on the cluster lane, with `gemma4:e4b-mlx` tracked on the Apple Silicon / MLX lane.
-- The M5 Max record was current on connector `v4.4.58`, reported Metal and MLX availability, and had passing samples for `gemma4:e4b-mlx`, `qwen2.5-coder:3b-mlx`, `qwen2.5:32b-instruct`, `qwen2.5vl:7b`, and `gpt-oss:120b`.
+- The M5 Max record remained current, reported Metal and MLX availability, and had passing public-safe samples for `gemma4:e4b-mlx`, `qwen2.5-coder:3b-mlx`, `qwen2.5:32b-instruct`, `qwen2.5vl:7b`, and `gpt-oss:120b`.
+- The product path also reinforced a practical truth rule: an image or media feature should either return a real artifact through a proven lane, show a clear limitation, or stay out of the UI. In the current public-safe architecture, private generated-image workflows remain on the Linked Device lane unless a separate OpenShift-hosted image service is actually deployed and validated.
 
 This snapshot is intentionally public-safe. It is not a complete live inventory and it is not a routing map.
