@@ -16,6 +16,8 @@ The live OpenShift inference lane was verified with `gemma4:26b`, `qwen2.5:7b`, 
 
 The 2026-05-09 validation pass also tightened a public-safe model-lab rule: device inventories should advertise only models that are actually installed and ready. For private vision/document work, the current public-safe Mac vision note is that `qwen2.5vl:7b` is the installed preferred lane. Stale unavailable model labels should be filtered from readiness displays instead of retried silently.
 
+A later 2026-05-09 infrastructure pass added another public-safe rule: hot cluster-side model stores should live on the dedicated local NVMe cache tier when available, with any previous network-backed store kept as seed/rollback rather than the active hot path. That pass also reinforced that heavier models can be present in the local cache without being safe automatic warmup targets.
+
 ## How To Read This Page
 
 Nessa uses a portfolio of local and open-weight models. A model can be useful even when it is not the default for a broad product path.
@@ -58,6 +60,8 @@ The model lab optimizes for product behavior, not leaderboard headlines.
 The 7B Qwen baseline stayed important because it returned practical, interactive responses on the Strix Halo OpenShift lane. The measured difference between the prior Qwen 2.5 14B-class fast behavior at about 24.7 tokens/sec and the Qwen 2.5 7B warm range around 45-51 tokens/sec was large enough to matter to real users.
 
 The 32B Qwen family stayed useful because larger models can give better depth, but the measured cold-load and warm-token costs make them a poor blanket replacement for fast local chat. That is the core lesson: a larger model can be better and still not be the right default everywhere.
+
+The same rule applies to warmup. A 32B-class artifact can belong in the local cache and remain available for deliberate tests, while the automatic warm set should stay limited to models whose first-load and memory behavior has proven safe under live service budgets.
 
 The Gemma 4 work is valuable because it gives Nessa another strong local model family for quality comparison. The current public cluster-side answer is `gemma4:26b`, and the Apple Silicon lab also tracks `gemma4:e4b-mlx` for MLX/Metal experiments.
 
@@ -119,10 +123,13 @@ Public-safe snapshot from the 2026-05-09 CDT sync:
 
 - Strix Halo / Ryzen AI Max+ 395, 128 GB remains the OpenShift AI worker lane for cluster-side local inference and model-serving experiments.
 - MacBook Pro M5 Max, 128 GB remains the Apple Silicon Linked Device lane for private MLX/Metal, vision, image, and high-memory local model tests.
+- The cluster-side model store pattern now uses a dedicated local NVMe cache tier for hot model artifacts, with the older network-backed store treated as seed/rollback during migration.
 - The recent live cluster warm set included `qwen2.5:7b`, `gemma4:26b`, and `nomic-embed-text`.
 - The live cluster model list included `gemma4:26b`, `qwen2.5:7b`, `qwen2.5:32b`, Qwen VL 3B/7B artifacts, Qwen3 Coder 30B, and `nomic-embed-text`.
+- `qwen2.5:32b` remains a useful heavier local comparison model, but it is not treated as a blanket automatic warmup target without controlled proof.
 - The current public Gemma 4 answer is `gemma4:26b` on the cluster lane, with `gemma4:e4b-mlx` tracked on the Apple Silicon / MLX lane.
 - The M5 Max record remained current, reported Metal and MLX availability, and had passing public-safe samples for `gemma4:e4b-mlx`, `qwen2.5-coder:3b-mlx`, `qwen2.5:32b-instruct`, `qwen2.5vl:7b`, and `gpt-oss:120b`.
+- The Mac-to-Linux direct sideband pattern is useful for artifact and model-cache movement, but public docs should describe the measured link class and architecture pattern rather than private interface details.
 - The product path also reinforced a practical truth rule: an image or media feature should either return a real artifact through a proven lane, show a clear limitation, or stay out of the UI. In the current public-safe architecture, private generated-image workflows remain on the Linked Device lane unless a separate OpenShift-hosted image service is actually deployed and validated.
 
 This snapshot is intentionally public-safe. It is not a complete live inventory and it is not a routing map.

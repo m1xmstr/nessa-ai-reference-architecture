@@ -67,6 +67,22 @@ Public-safe lessons from this program:
 - OpenShift resource requests, node placement, and warmup checks mattered
 - every model needed real load, latency, and output-quality proof before promotion
 
+### Dedicated local NVMe cache
+
+The public-safe reference pattern now treats local NVMe as a first-class model-cache tier, not only extra disk.
+
+The practical design is:
+
+- keep the OpenShift/system disk separate from the AI model-cache disk
+- back the model cache with a node-local persistent volume
+- mount hot model artifacts from that local cache into the serving runtime
+- keep the previous network-backed model store available as a read-only seed or rollback source during migration
+- warm only the models that have proven safe under live resource budgets
+
+This matters because model-cache placement is product behavior. A large local model can be technically installed and still produce a poor user experience if every cold path depends on slow or contended storage.
+
+The same discipline applies to larger models. A 32B-class model can be valuable for quality comparison while still being a bad automatic warmup target if first-load behavior stalls the serving runtime. Local NVMe helps, but it does not remove the need for controlled warmup policy, memory limits, and canary proof.
+
 ## MacBook Pro M5 Max as an Apple Silicon Linked Device
 
 The M5 Max is the private high-memory endpoint lane.
@@ -111,18 +127,21 @@ The public-safe point is not the private interface details. The point is the arc
 
 - a direct sideband can move model artifacts and validation payloads without relying on ordinary LAN paths
 - high-throughput local transfer makes large-model testing less painful
+- a sideband cache should land on the same local model/artifact cache tier when that is the fastest safe target
 - the sideband helps the lab operate faster without requiring ordinary user traffic to use it by default
 - routing policy still matters; a fast cable is not a privacy policy
 
 In practical terms, the direct path made the Strix/M5 pair feel like a cohesive local AI lab instead of two disconnected machines.
+
+The reference environment also exposed an important measurement rule: do not assume the advertised cable or port maximum is the actual negotiated path. Measure the current link and document the proven speed before making product claims.
 
 ## Mac Primary Plus Linux Companion
 
 The current public-safe pattern is:
 
 - MacBook Pro M5 Max, 128 GB: private Apple Silicon primary Linked Device for OCR, vision, MLX/Metal, private image workflows, and large open-weight experiments
-- Ryzen AI Max+ 395, 128 GB: Linux/OpenShift companion for cluster-hosted serving, cache-heavy experiments, and platform validation
-- Thunderbolt 5 sideband: fast lab transport for artifacts and proof, not a blanket product-routing rule
+- Ryzen AI Max+ 395, 128 GB: Linux/OpenShift companion for cluster-hosted serving, local NVMe model-cache experiments, and platform validation
+- Thunderbolt 5 sideband: fast lab transport for artifacts and proof, ideally landing on the local cache tier, not a blanket product-routing rule
 
 This is a calm pattern for small private AI teams because it avoids forcing one machine to be everything. The Mac remains a user-approved private endpoint. The Linux box remains platform infrastructure. The direct sideband makes the lab faster without replacing policy, auth, or fail-closed routing.
 
