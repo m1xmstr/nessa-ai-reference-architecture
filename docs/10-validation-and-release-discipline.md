@@ -58,6 +58,22 @@ Browser proof matters for:
 - NessaClaw
 - mobile layout
 
+## Write-Path Proof
+
+Private AI products need evidence for saved state, not only response text.
+
+Public-safe write-path checks include:
+
+- request payload shape
+- non-500 API behavior
+- clear success and failure copy
+- no premature success message before persistence
+- reload persistence after save
+- cleanup of disposable test data
+- no secrets or tokens in logs, screenshots, or videos
+
+Staging-only authenticated E2E suites are useful for this. They should seed disposable personas, refuse production hosts, mask sensitive values, retain failure evidence, and clean their own state afterward.
+
 ## Platform Cleanup Checks
 
 Public-safe checks include:

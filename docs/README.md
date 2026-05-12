@@ -22,6 +22,7 @@ Start with:
 - [18-camera-ux-design.md](./18-camera-ux-design.md)
 - [19-mobile-ux-and-continuity-patterns.md](./19-mobile-ux-and-continuity-patterns.md)
 - [20-models-and-model-lab.md](./20-models-and-model-lab.md)
+- [21-quality-guardrails-and-write-path-validation.md](./21-quality-guardrails-and-write-path-validation.md)
 
 Diagrams:
 
@@ -48,3 +49,4 @@ Smart Home highlights:
 UX and continuity highlights:
 
 - [19-mobile-ux-and-continuity-patterns.md](./19-mobile-ux-and-continuity-patterns.md)
+- [21-quality-guardrails-and-write-path-validation.md](./21-quality-guardrails-and-write-path-validation.md)
