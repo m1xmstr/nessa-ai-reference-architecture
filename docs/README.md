@@ -30,6 +30,7 @@ Start with:
 - [26-weather-alert-truth-gates.md](./26-weather-alert-truth-gates.md)
 - [27-maintenance-mode-protocol.md](./27-maintenance-mode-protocol.md)
 - [28-release-runbook-truth-sync.md](./28-release-runbook-truth-sync.md)
+- [29-dual-sideband-transfer-pattern.md](./29-dual-sideband-transfer-pattern.md)
 
 Diagrams:
 
@@ -64,3 +65,4 @@ UX and continuity highlights:
 - [26-weather-alert-truth-gates.md](./26-weather-alert-truth-gates.md)
 - [27-maintenance-mode-protocol.md](./27-maintenance-mode-protocol.md)
 - [28-release-runbook-truth-sync.md](./28-release-runbook-truth-sync.md)
+- [29-dual-sideband-transfer-pattern.md](./29-dual-sideband-transfer-pattern.md)

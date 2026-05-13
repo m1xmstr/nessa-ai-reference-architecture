@@ -254,6 +254,7 @@ Primary public reference docs:
 - [docs/16-nessaclaw-design-philosophy.md](./docs/16-nessaclaw-design-philosophy.md)
 - [docs/17-hardware-and-model-lab.md](./docs/17-hardware-and-model-lab.md)
 - [docs/18-camera-ux-design.md](./docs/18-camera-ux-design.md)
+- [docs/29-dual-sideband-transfer-pattern.md](./docs/29-dual-sideband-transfer-pattern.md)
 
 Diagrams:
 
