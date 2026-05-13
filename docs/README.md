@@ -26,6 +26,8 @@ Start with:
 - [22-model-governance-and-admin-surface-guardrails.md](./22-model-governance-and-admin-surface-guardrails.md)
 - [23-access-support-and-donation-boundaries.md](./23-access-support-and-donation-boundaries.md)
 - [24-release-truth-and-canary-gates.md](./24-release-truth-and-canary-gates.md)
+- [25-owner-notification-trust-firewall.md](./25-owner-notification-trust-firewall.md)
+- [26-weather-alert-truth-gates.md](./26-weather-alert-truth-gates.md)
 
 Diagrams:
 
@@ -56,3 +58,5 @@ UX and continuity highlights:
 - [22-model-governance-and-admin-surface-guardrails.md](./22-model-governance-and-admin-surface-guardrails.md)
 - [23-access-support-and-donation-boundaries.md](./23-access-support-and-donation-boundaries.md)
 - [24-release-truth-and-canary-gates.md](./24-release-truth-and-canary-gates.md)
+- [25-owner-notification-trust-firewall.md](./25-owner-notification-trust-firewall.md)
+- [26-weather-alert-truth-gates.md](./26-weather-alert-truth-gates.md)
