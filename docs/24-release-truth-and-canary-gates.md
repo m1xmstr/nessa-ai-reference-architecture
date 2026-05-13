@@ -97,6 +97,22 @@ For math or tutoring flows, gate assertions should be semantic enough to catch t
 
 The public lesson is not the private prompt or parser. The public lesson is that release gates should include replayable, workflow-specific trust checks for known failure classes, and promotion should require those checks for the exact staged digest.
 
+## Owner-First UX Canaries
+
+Owner accounts are high-signal release-test personas because they combine family controls, learning continuation, documents, private compute, and admin-adjacent visibility.
+
+Public-safe owner-first checks include:
+
+- the first signed-in home fold stays calm and chat-first
+- the composer does not overlay daily-home cards
+- only the top few actions compete for attention above the fold
+- continuation actions open real active workflows or clear recovery screens
+- missing or expired workflow links do not leave blank broken shells
+- greetings use human copy instead of handle-like usernames
+- weather and alert language is backed by the appropriate weather-truth gate
+
+See [34-owner-first-release-gates.md](./34-owner-first-release-gates.md) for the dedicated pattern.
+
 ## Failure Evidence
 
 Failed gates should produce enough evidence for a developer to fix the issue without guessing:

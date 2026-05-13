@@ -35,6 +35,7 @@ Start with:
 - [31-family-command-center-pattern.md](./31-family-command-center-pattern.md)
 - [32-tutor-intent-anchor-reasoning-guardrails.md](./32-tutor-intent-anchor-reasoning-guardrails.md)
 - [33-study-companion-learning-pattern.md](./33-study-companion-learning-pattern.md)
+- [34-owner-first-release-gates.md](./34-owner-first-release-gates.md)
 
 Diagrams:
 
@@ -74,3 +75,4 @@ UX and continuity highlights:
 - [31-family-command-center-pattern.md](./31-family-command-center-pattern.md)
 - [32-tutor-intent-anchor-reasoning-guardrails.md](./32-tutor-intent-anchor-reasoning-guardrails.md)
 - [33-study-companion-learning-pattern.md](./33-study-companion-learning-pattern.md)
+- [34-owner-first-release-gates.md](./34-owner-first-release-gates.md)
