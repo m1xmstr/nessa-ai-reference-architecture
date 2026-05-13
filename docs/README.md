@@ -34,6 +34,7 @@ Start with:
 - [30-nvme-scratch-worker-pattern.md](./30-nvme-scratch-worker-pattern.md)
 - [31-family-command-center-pattern.md](./31-family-command-center-pattern.md)
 - [32-tutor-intent-anchor-reasoning-guardrails.md](./32-tutor-intent-anchor-reasoning-guardrails.md)
+- [33-study-companion-learning-pattern.md](./33-study-companion-learning-pattern.md)
 
 Diagrams:
 
@@ -72,3 +73,4 @@ UX and continuity highlights:
 - [30-nvme-scratch-worker-pattern.md](./30-nvme-scratch-worker-pattern.md)
 - [31-family-command-center-pattern.md](./31-family-command-center-pattern.md)
 - [32-tutor-intent-anchor-reasoning-guardrails.md](./32-tutor-intent-anchor-reasoning-guardrails.md)
+- [33-study-companion-learning-pattern.md](./33-study-companion-learning-pattern.md)

@@ -27,6 +27,9 @@ Public-safe capabilities can include:
 - document support
 - guided explanations
 - similar examples
+- worksheet-to-study-plan flow
+- problem focus mode
+- work checking and mistake explanation
 - step-by-step practice
 - parent/tutor-friendly summaries
 - resume honesty when a prior lesson or document is being continued
@@ -46,6 +49,9 @@ Public-safe workflow checks include:
 - asking follow-up questions inside the same lesson context
 - saving, completing, archiving, and restoring visibility where supported
 - generating study plans and study packs as saved learning objects
+- focusing the active worksheet problem before hinting or checking work
+- checking a messy or misspelled reasoning attempt against the intended problem
+- producing parent progress summaries without exposing unnecessary private chat detail
 - showing parent or owner progress only when the role and family settings allow it
 - forcing child or restricted learners into safer/basic controls
 - hiding advanced model, device, and admin controls from restricted learner views
@@ -95,3 +101,5 @@ This repo does not publish:
 See [FAMILY_AI_SAFETY_PATTERNS.md](./FAMILY_AI_SAFETY_PATTERNS.md) for broader public-safe family AI safety patterns.
 
 See [32-tutor-intent-anchor-reasoning-guardrails.md](./32-tutor-intent-anchor-reasoning-guardrails.md) for a public-safe pattern covering current-turn tutor intent, worksheet problem anchoring, reasoning checks, and stale-response prevention.
+
+See [33-study-companion-learning-pattern.md](./33-study-companion-learning-pattern.md) for a public-safe pattern covering worksheet-to-plan flow, visible problem focus, teach-first actions, parent recap, and mobile learning proof.
