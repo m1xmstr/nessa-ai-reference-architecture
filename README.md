@@ -99,7 +99,7 @@ The production product has evolved beyond the original CPU-first cluster. Curren
 - NessaClaw as Nessa's guarded private agent-workspace surface over OpenClaw-compatible infrastructure, starting with safe missions and an always-visible stop control
 - family-safe Learning and Homework Buddy principles without exposing lesson-flow implementation
 
-Recent public-safe validation note, 2026-05-13: Nessa's private release process expanded into staging-only write-path, document, family-control, linked-device, security, mobile, Learning/Homework Buddy, model-governance, access/support/referral, response-quality, release-truth, canary, owner-notification, weather-alert truth, maintenance-mode protocol, and release-runbook truth-sync proof suites. The public lesson is simple: a private AI product needs proof for what users can save, delete, invite, upload, select, learn, resume, archive, regenerate, support, refer, administrate, read legally, receive in production, see during maintenance, and read in operator handoffs, not only proof that a model can answer. Public docs intentionally omit private routes, account data, connector internals, prompt chains, lesson-flow internals, billing internals, exact routing heuristics, private notification routes, private locations, and production test artifacts.
+Recent public-safe validation note, 2026-05-13: Nessa's private release process expanded into staging-only write-path, document, family-control, linked-device, security, mobile, Learning/Homework Buddy, tutor intent anchoring, model-governance, access/support/referral, response-quality, release-truth, canary, owner-notification, weather-alert truth, maintenance-mode protocol, and release-runbook truth-sync proof suites. The public lesson is simple: a private AI product needs proof for what users can save, delete, invite, upload, select, learn, resume, archive, regenerate, support, refer, administrate, read legally, receive in production, see during maintenance, and read in operator handoffs, not only proof that a model can answer. Public docs intentionally omit private routes, account data, connector internals, prompt chains, lesson-flow internals, billing internals, exact routing heuristics, private notification routes, private locations, and production test artifacts.
 
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
@@ -110,6 +110,7 @@ See also [docs/26-weather-alert-truth-gates.md](./docs/26-weather-alert-truth-ga
 See also [docs/27-maintenance-mode-protocol.md](./docs/27-maintenance-mode-protocol.md).
 See also [docs/28-release-runbook-truth-sync.md](./docs/28-release-runbook-truth-sync.md).
 See also [docs/31-family-command-center-pattern.md](./docs/31-family-command-center-pattern.md).
+See also [docs/32-tutor-intent-anchor-reasoning-guardrails.md](./docs/32-tutor-intent-anchor-reasoning-guardrails.md).
 
 ## Hardware Lab at a Glance
 

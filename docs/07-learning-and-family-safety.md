@@ -93,3 +93,5 @@ This repo does not publish:
 ## Related Doc
 
 See [FAMILY_AI_SAFETY_PATTERNS.md](./FAMILY_AI_SAFETY_PATTERNS.md) for broader public-safe family AI safety patterns.
+
+See [32-tutor-intent-anchor-reasoning-guardrails.md](./32-tutor-intent-anchor-reasoning-guardrails.md) for a public-safe pattern covering current-turn tutor intent, worksheet problem anchoring, reasoning checks, and stale-response prevention.
