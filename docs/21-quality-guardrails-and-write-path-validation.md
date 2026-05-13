@@ -20,6 +20,7 @@ Nessa added a broader validation pattern around user-visible state:
 - chat history deletion and resume behavior
 - linked-device readiness and fallback truth
 - model governance and owner/admin surface gating
+- access, support, donation, referral, and billing-label truth
 - mobile layout across narrow phones, tablets, and desktop
 - response-quality regressions where an unrelated specialty or stale context could leak into an answer
 
@@ -147,6 +148,24 @@ Public-safe checks:
 - rollback is a supported path rather than an incident-only manual fix
 
 See [22-model-governance-and-admin-surface-guardrails.md](./22-model-governance-and-admin-surface-guardrails.md).
+
+## Access, Support, Referrals, And Donations
+
+Support and referral surfaces are trust surfaces. They need proof that copy, API behavior, and backend entitlement truth all agree.
+
+Public-safe checks:
+
+- effective plan and role labels match backend access
+- active owners do not see stale request-upgrade states
+- donations are clearly optional and separate from account access
+- donation APIs do not claim entitlement grants unless the backend actually grants them
+- hosted checkout tests run only in staging test mode
+- failed or disabled checkout returns safe non-500 copy
+- cancel/back flows say no payment was made
+- referral code/link creation is real, or the control is hidden
+- frontend payloads, logs, screenshots, and videos contain no live keys or secrets
+
+See [23-access-support-and-donation-boundaries.md](./23-access-support-and-donation-boundaries.md).
 
 ## Mobile First Proof
 

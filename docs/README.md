@@ -24,6 +24,7 @@ Start with:
 - [20-models-and-model-lab.md](./20-models-and-model-lab.md)
 - [21-quality-guardrails-and-write-path-validation.md](./21-quality-guardrails-and-write-path-validation.md)
 - [22-model-governance-and-admin-surface-guardrails.md](./22-model-governance-and-admin-surface-guardrails.md)
+- [23-access-support-and-donation-boundaries.md](./23-access-support-and-donation-boundaries.md)
 
 Diagrams:
 
@@ -52,3 +53,4 @@ UX and continuity highlights:
 - [19-mobile-ux-and-continuity-patterns.md](./19-mobile-ux-and-continuity-patterns.md)
 - [21-quality-guardrails-and-write-path-validation.md](./21-quality-guardrails-and-write-path-validation.md)
 - [22-model-governance-and-admin-surface-guardrails.md](./22-model-governance-and-admin-surface-guardrails.md)
+- [23-access-support-and-donation-boundaries.md](./23-access-support-and-donation-boundaries.md)
