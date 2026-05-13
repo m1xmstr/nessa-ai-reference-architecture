@@ -25,6 +25,7 @@ Start with:
 - [21-quality-guardrails-and-write-path-validation.md](./21-quality-guardrails-and-write-path-validation.md)
 - [22-model-governance-and-admin-surface-guardrails.md](./22-model-governance-and-admin-surface-guardrails.md)
 - [23-access-support-and-donation-boundaries.md](./23-access-support-and-donation-boundaries.md)
+- [24-release-truth-and-canary-gates.md](./24-release-truth-and-canary-gates.md)
 
 Diagrams:
 
@@ -54,3 +55,4 @@ UX and continuity highlights:
 - [21-quality-guardrails-and-write-path-validation.md](./21-quality-guardrails-and-write-path-validation.md)
 - [22-model-governance-and-admin-surface-guardrails.md](./22-model-governance-and-admin-surface-guardrails.md)
 - [23-access-support-and-donation-boundaries.md](./23-access-support-and-donation-boundaries.md)
+- [24-release-truth-and-canary-gates.md](./24-release-truth-and-canary-gates.md)
