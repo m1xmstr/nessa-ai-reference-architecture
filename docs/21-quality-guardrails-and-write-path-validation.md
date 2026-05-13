@@ -19,6 +19,7 @@ Nessa added a broader validation pattern around user-visible state:
 - document upload, search, redaction, download, delete, and count truth
 - chat history deletion and resume behavior
 - linked-device readiness and fallback truth
+- model governance and owner/admin surface gating
 - mobile layout across narrow phones, tablets, and desktop
 - response-quality regressions where an unrelated specialty or stale context could leak into an answer
 
@@ -129,6 +130,23 @@ Checks include:
 - write endpoints have CSRF/session protections
 - staging or test bypasses do not exist in production
 - secrets do not appear in frontend logs, server logs, screenshots, or videos
+
+## Model Governance And Admin Surfaces
+
+Model governance is not a normal family-user surface. Basic users need simple mode labels, not raw model inventory or owner/admin controls.
+
+Public-safe checks:
+
+- Basic mode shows friendly choices such as Fast, Auto, Thinking, Gemma 4, and Extended Thinking
+- owner and administrator roles can open governance tools
+- adult members, free users, children, restricted users, and guests cannot reach governance by URL
+- API routes return safe `401` or `403` responses instead of raw errors
+- child and restricted users fail closed when role state is missing
+- dangerous model actions require explicit confirmation
+- promotion, rollback, actor, timestamp, target model/version, and previous state are auditable
+- rollback is a supported path rather than an incident-only manual fix
+
+See [22-model-governance-and-admin-surface-guardrails.md](./22-model-governance-and-admin-surface-guardrails.md).
 
 ## Mobile First Proof
 

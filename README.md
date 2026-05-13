@@ -99,9 +99,10 @@ The production product has evolved beyond the original CPU-first cluster. Curren
 - NessaClaw as Nessa's guarded private agent-workspace surface over OpenClaw-compatible infrastructure, starting with safe missions and an always-visible stop control
 - family-safe Learning and Homework Buddy principles without exposing lesson-flow implementation
 
-Recent public-safe validation note, 2026-05-12: Nessa's private release process expanded into staging-only write-path, document, family-control, linked-device, security, mobile, Learning/Homework Buddy, and response-quality proof suites. The public lesson is simple: a private AI product needs proof for what users can save, delete, invite, upload, select, learn, resume, archive, and regenerate, not only proof that a model can answer. Public docs intentionally omit private routes, account data, connector internals, prompt chains, lesson-flow internals, and exact routing heuristics.
+Recent public-safe validation note, 2026-05-12: Nessa's private release process expanded into staging-only write-path, document, family-control, linked-device, security, mobile, Learning/Homework Buddy, model-governance, and response-quality proof suites. The public lesson is simple: a private AI product needs proof for what users can save, delete, invite, upload, select, learn, resume, archive, regenerate, and administrate, not only proof that a model can answer. Public docs intentionally omit private routes, account data, connector internals, prompt chains, lesson-flow internals, and exact routing heuristics.
 
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
+See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 
 ## Hardware Lab at a Glance
 
