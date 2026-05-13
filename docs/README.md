@@ -28,6 +28,7 @@ Start with:
 - [24-release-truth-and-canary-gates.md](./24-release-truth-and-canary-gates.md)
 - [25-owner-notification-trust-firewall.md](./25-owner-notification-trust-firewall.md)
 - [26-weather-alert-truth-gates.md](./26-weather-alert-truth-gates.md)
+- [27-maintenance-mode-protocol.md](./27-maintenance-mode-protocol.md)
 
 Diagrams:
 
@@ -60,3 +61,4 @@ UX and continuity highlights:
 - [24-release-truth-and-canary-gates.md](./24-release-truth-and-canary-gates.md)
 - [25-owner-notification-trust-firewall.md](./25-owner-notification-trust-firewall.md)
 - [26-weather-alert-truth-gates.md](./26-weather-alert-truth-gates.md)
+- [27-maintenance-mode-protocol.md](./27-maintenance-mode-protocol.md)
