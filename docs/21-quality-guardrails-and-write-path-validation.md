@@ -13,6 +13,7 @@ Nessa added a broader validation pattern around user-visible state:
 - account and profile write paths
 - AI preference and personalization saves
 - family invitations and role state
+- Learning / Homework Buddy lesson lifecycle and study-plan state
 - API key creation and revocation
 - two-factor setup and cancel behavior
 - document upload, search, redaction, download, delete, and count truth
@@ -62,6 +63,25 @@ Important checks:
 - child or restricted users fail closed when state is missing
 - safety mode follows the user into chat and learning flows
 - disabled states explain what is needed next
+
+## Learning / Homework Buddy
+
+Learning is a trust surface, so the product has to prove more than answer quality.
+
+Public-safe checks:
+
+- a learner can start a new lesson from a question, worksheet, or both
+- worksheet uploads create real linked artifacts and survive reload
+- unsupported or oversized worksheets fail with concrete file-type and size guidance
+- a follow-up question stays in the same lesson instead of creating a duplicate session
+- save, complete, archive, and restore states persist across reload
+- resume labels are accurate and do not point to stale homework threads
+- study plans and study packs are saved learning objects, not decorative buttons
+- owner/parent progress views are role-gated and show honest zero states
+- child or restricted learners get safer defaults and cannot reach advanced model/device/admin controls through Learning
+- Basic learner views do not expose raw model telemetry
+
+The public lesson is to test Learning like a workflow. A private tutor product should not rely on "the model answered once" as its release gate.
 
 ## Documents
 

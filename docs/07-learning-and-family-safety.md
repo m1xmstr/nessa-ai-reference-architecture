@@ -33,6 +33,25 @@ Public-safe capabilities can include:
 
 These are product outcomes, not implementation details.
 
+## Workflow Proof Pattern
+
+Learning surfaces should be validated as guided workspaces, not as chat boxes with education-themed cards.
+
+Public-safe workflow checks include:
+
+- starting a new lesson with or without an attached worksheet
+- resuming the latest relevant lesson with honest labels
+- rejecting unsupported or oversized worksheet files with clear copy
+- proving uploaded worksheets become real linked artifacts
+- asking follow-up questions inside the same lesson context
+- saving, completing, archiving, and restoring visibility where supported
+- generating study plans and study packs as saved learning objects
+- showing parent or owner progress only when the role and family settings allow it
+- forcing child or restricted learners into safer/basic controls
+- hiding advanced model, device, and admin controls from restricted learner views
+
+The reusable pattern is to prove the learner and parent experience end to end in staging with disposable personas, then promote only the verified build. This repo does not publish the proprietary lesson-state model, prompt chain, worksheet parsing implementation, or anti-cheat logic.
+
 ## Trust Failures Are P0
 
 For a family product, the following are serious defects:
