@@ -74,6 +74,29 @@ Useful staging checks:
 
 The goal is to prove the high-risk user paths at release time without turning every deploy into an uncontrolled broad QA pass.
 
+## Workflow-Specific Quality Canaries
+
+Some failures are too specific to catch with a generic chat smoke test. A release gate should carry targeted canaries for the workflows that create the most trust risk.
+
+Public-safe examples:
+
+- a worksheet-backed Learning session where a student asks to check messy reasoning on a specific problem
+- a document workflow that uploads, reloads, searches, and deletes a real fixture
+- a family-owner workflow that proves an active household owner does not see a create-plan placeholder
+- a linked-device workflow that proves Basic users see friendly modes while owner diagnostics can still inspect device state
+
+The Learning pattern is especially important for family AI products. A quality canary should seed or reuse a worksheet-backed session, send the student turn through the active lesson route, and assert the answer is anchored to the intended problem. It should also prime stale prior context when that is the failure class, then verify the final answer does not reuse the stale hint.
+
+For math or tutoring flows, gate assertions should be semantic enough to catch the actual trust break:
+
+- the answer names the intended problem
+- the correct intermediate step is confirmed
+- the final correction is mathematically complete
+- unrelated prior-problem language is absent from the latest answer
+- the response arrived through the active workflow route, not a generic chat fallback
+
+The public lesson is not the private prompt or parser. The public lesson is that release gates should include replayable, workflow-specific trust checks for known failure classes, and promotion should require those checks for the exact staged digest.
+
 ## Failure Evidence
 
 Failed gates should produce enough evidence for a developer to fix the issue without guessing:
