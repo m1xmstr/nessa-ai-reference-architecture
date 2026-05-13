@@ -109,6 +109,7 @@ See also [docs/25-owner-notification-trust-firewall.md](./docs/25-owner-notifica
 See also [docs/26-weather-alert-truth-gates.md](./docs/26-weather-alert-truth-gates.md).
 See also [docs/27-maintenance-mode-protocol.md](./docs/27-maintenance-mode-protocol.md).
 See also [docs/28-release-runbook-truth-sync.md](./docs/28-release-runbook-truth-sync.md).
+See also [docs/31-family-command-center-pattern.md](./docs/31-family-command-center-pattern.md).
 
 ## Hardware Lab at a Glance
 

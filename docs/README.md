@@ -32,6 +32,7 @@ Start with:
 - [28-release-runbook-truth-sync.md](./28-release-runbook-truth-sync.md)
 - [29-dual-sideband-transfer-pattern.md](./29-dual-sideband-transfer-pattern.md)
 - [30-nvme-scratch-worker-pattern.md](./30-nvme-scratch-worker-pattern.md)
+- [31-family-command-center-pattern.md](./31-family-command-center-pattern.md)
 
 Diagrams:
 
@@ -68,3 +69,4 @@ UX and continuity highlights:
 - [28-release-runbook-truth-sync.md](./28-release-runbook-truth-sync.md)
 - [29-dual-sideband-transfer-pattern.md](./29-dual-sideband-transfer-pattern.md)
 - [30-nvme-scratch-worker-pattern.md](./30-nvme-scratch-worker-pattern.md)
+- [31-family-command-center-pattern.md](./31-family-command-center-pattern.md)
