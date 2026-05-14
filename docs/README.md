@@ -38,6 +38,7 @@ Start with:
 - [34-owner-first-release-gates.md](./34-owner-first-release-gates.md)
 - [35-learning-link-truth-and-attachment-context.md](./35-learning-link-truth-and-attachment-context.md)
 - [36-chat-first-home-simplicity-gate.md](./36-chat-first-home-simplicity-gate.md)
+- [37-new-chat-context-starters-and-weather-truth.md](./37-new-chat-context-starters-and-weather-truth.md)
 
 Diagrams:
 
@@ -80,3 +81,4 @@ UX and continuity highlights:
 - [34-owner-first-release-gates.md](./34-owner-first-release-gates.md)
 - [35-learning-link-truth-and-attachment-context.md](./35-learning-link-truth-and-attachment-context.md)
 - [36-chat-first-home-simplicity-gate.md](./36-chat-first-home-simplicity-gate.md)
+- [37-new-chat-context-starters-and-weather-truth.md](./37-new-chat-context-starters-and-weather-truth.md)
