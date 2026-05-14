@@ -37,6 +37,7 @@ Start with:
 - [33-study-companion-learning-pattern.md](./33-study-companion-learning-pattern.md)
 - [34-owner-first-release-gates.md](./34-owner-first-release-gates.md)
 - [35-learning-link-truth-and-attachment-context.md](./35-learning-link-truth-and-attachment-context.md)
+- [36-chat-first-home-simplicity-gate.md](./36-chat-first-home-simplicity-gate.md)
 
 Diagrams:
 
@@ -78,3 +79,4 @@ UX and continuity highlights:
 - [33-study-companion-learning-pattern.md](./33-study-companion-learning-pattern.md)
 - [34-owner-first-release-gates.md](./34-owner-first-release-gates.md)
 - [35-learning-link-truth-and-attachment-context.md](./35-learning-link-truth-and-attachment-context.md)
+- [36-chat-first-home-simplicity-gate.md](./36-chat-first-home-simplicity-gate.md)

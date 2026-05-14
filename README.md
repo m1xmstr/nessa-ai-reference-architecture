@@ -114,6 +114,7 @@ See also [docs/32-tutor-intent-anchor-reasoning-guardrails.md](./docs/32-tutor-i
 See also [docs/33-study-companion-learning-pattern.md](./docs/33-study-companion-learning-pattern.md).
 See also [docs/34-owner-first-release-gates.md](./docs/34-owner-first-release-gates.md).
 See also [docs/35-learning-link-truth-and-attachment-context.md](./docs/35-learning-link-truth-and-attachment-context.md).
+See also [docs/36-chat-first-home-simplicity-gate.md](./docs/36-chat-first-home-simplicity-gate.md).
 
 ## Hardware Lab at a Glance
 
