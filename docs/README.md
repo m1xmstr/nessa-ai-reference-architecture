@@ -36,6 +36,7 @@ Start with:
 - [32-tutor-intent-anchor-reasoning-guardrails.md](./32-tutor-intent-anchor-reasoning-guardrails.md)
 - [33-study-companion-learning-pattern.md](./33-study-companion-learning-pattern.md)
 - [34-owner-first-release-gates.md](./34-owner-first-release-gates.md)
+- [35-learning-link-truth-and-attachment-context.md](./35-learning-link-truth-and-attachment-context.md)
 
 Diagrams:
 
@@ -76,3 +77,4 @@ UX and continuity highlights:
 - [32-tutor-intent-anchor-reasoning-guardrails.md](./32-tutor-intent-anchor-reasoning-guardrails.md)
 - [33-study-companion-learning-pattern.md](./33-study-companion-learning-pattern.md)
 - [34-owner-first-release-gates.md](./34-owner-first-release-gates.md)
+- [35-learning-link-truth-and-attachment-context.md](./35-learning-link-truth-and-attachment-context.md)
