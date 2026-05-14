@@ -39,6 +39,9 @@ Start with:
 - [35-learning-link-truth-and-attachment-context.md](./35-learning-link-truth-and-attachment-context.md)
 - [36-chat-first-home-simplicity-gate.md](./36-chat-first-home-simplicity-gate.md)
 - [37-new-chat-context-starters-and-weather-truth.md](./37-new-chat-context-starters-and-weather-truth.md)
+- [38-public-demo-and-marketing-pack.md](./38-public-demo-and-marketing-pack.md)
+- [39-public-demo-scripts.md](./39-public-demo-scripts.md)
+- [40-public-demo-gallery-and-launch-checklist.md](./40-public-demo-gallery-and-launch-checklist.md)
 
 Diagrams:
 
@@ -82,3 +85,6 @@ UX and continuity highlights:
 - [35-learning-link-truth-and-attachment-context.md](./35-learning-link-truth-and-attachment-context.md)
 - [36-chat-first-home-simplicity-gate.md](./36-chat-first-home-simplicity-gate.md)
 - [37-new-chat-context-starters-and-weather-truth.md](./37-new-chat-context-starters-and-weather-truth.md)
+- [38-public-demo-and-marketing-pack.md](./38-public-demo-and-marketing-pack.md)
+- [39-public-demo-scripts.md](./39-public-demo-scripts.md)
+- [40-public-demo-gallery-and-launch-checklist.md](./40-public-demo-gallery-and-launch-checklist.md)

@@ -101,6 +101,8 @@ The production product has evolved beyond the original CPU-first cluster. Curren
 
 Recent public-safe validation note, 2026-05-13: Nessa's private release process expanded into staging-only write-path, document, family-control, linked-device, security, mobile, Learning/Homework Buddy, study-companion, tutor intent anchoring, workflow-specific Learning quality canaries, owner-first UX gates, Learning continuation-link truth, attachment-context truth, model-governance, access/support/referral, response-quality, release-truth, canary, owner-notification, weather-alert truth, maintenance-mode protocol, and release-runbook truth-sync proof suites. The public lesson is simple: a private AI product needs proof for what users can save, delete, invite, upload, select, learn, resume, archive, regenerate, support, refer, administrate, read legally, receive in production, see during maintenance, recover from stale links, and attach to current files, not only proof that a model can answer. Public docs intentionally omit private routes, account data, connector internals, prompt chains, lesson-flow internals, billing internals, exact routing heuristics, private notification routes, private locations, and production test artifacts.
 
+Public demo and marketing note, 2026-05-14: the public-safe demo package now explains Nessa as private AI for real family life, with sanitized proof cards for Homework Help, Document Safety and Redaction, Private Compute, Family Controls, and Nessa Now. It includes founder, technical, and family workflow demo scripts plus a synthetic worksheet, redaction sample, Linked Devices explainer, and launch checklist. See [docs/38-public-demo-and-marketing-pack.md](./docs/38-public-demo-and-marketing-pack.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -116,6 +118,9 @@ See also [docs/34-owner-first-release-gates.md](./docs/34-owner-first-release-ga
 See also [docs/35-learning-link-truth-and-attachment-context.md](./docs/35-learning-link-truth-and-attachment-context.md).
 See also [docs/36-chat-first-home-simplicity-gate.md](./docs/36-chat-first-home-simplicity-gate.md).
 See also [docs/37-new-chat-context-starters-and-weather-truth.md](./docs/37-new-chat-context-starters-and-weather-truth.md).
+See also [docs/38-public-demo-and-marketing-pack.md](./docs/38-public-demo-and-marketing-pack.md).
+See also [docs/39-public-demo-scripts.md](./docs/39-public-demo-scripts.md).
+See also [docs/40-public-demo-gallery-and-launch-checklist.md](./docs/40-public-demo-gallery-and-launch-checklist.md).
 
 ## Hardware Lab at a Glance
 
