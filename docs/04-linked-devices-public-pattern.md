@@ -47,6 +47,22 @@ Public-safe pattern:
 
 This makes the device useful for high-quality private experiments while keeping the product honest about route truth and fallback.
 
+## Owner-Only Preview Promotion Pattern
+
+A private linked-device lane can move from lab proof to production only as a narrow owner or administrator preview.
+
+Public-safe promotion contract:
+
+- stage and benchmark the device lane before production exposure
+- keep Fast and Auto defaults unchanged until the preview proves it should be broader
+- hide raw model ids, file names, hardware ids, and route diagnostics from Basic mode
+- block child or restricted accounts from preview-only lanes
+- require every generation to end in one of three states: completed, clearly continuable, or failed with a recorded reason
+- preserve fallback copy when the preview device is unavailable
+- verify fallback separately by taking the device endpoint offline
+
+This avoids a common local-AI failure mode: a powerful lab path gets promoted as a default before the product has proved stream completion, route truth, and account-policy behavior.
+
 ## Thunderbolt 5 Sideband Pattern
 
 The reference lab also uses a high-speed Thunderbolt 5 / USB4 direct sideband between the Apple Silicon endpoint and the AI-worker side of the platform.

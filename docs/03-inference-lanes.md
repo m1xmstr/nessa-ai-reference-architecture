@@ -95,6 +95,20 @@ Public-safe rollout pattern:
 
 This lets a private device create a "wow" candidate lane without weakening normal routing, family safety, or privacy boundaries.
 
+### Stream completion contract
+
+Long-form, story, and code generations need an explicit stream-completion contract before a preview lane is trusted.
+
+Public-safe checks:
+
+- the server records whether the stream finished, timed out, or failed
+- the final assistant message is persisted when the model completes
+- partial text is preserved when a timeout or transport error happens
+- the user sees a clear continuation path instead of a silent cutoff
+- diagnostics record which lane actually answered
+
+This matters most for linked-device lanes because local runtimes, tunnels, and browser streams can each stop independently.
+
 ## Strix Halo vs M5 Max
 
 | Question | Strix Halo OpenShift worker | M5 Max Linked Device |

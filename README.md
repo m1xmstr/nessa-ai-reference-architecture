@@ -103,6 +103,8 @@ Recent public-safe validation note, 2026-05-13: Nessa's private release process 
 
 Public demo and marketing note, 2026-05-14: the public-safe demo package now explains Nessa as private AI for real family life, with sanitized proof cards for Homework Help, Document Safety and Redaction, Private Compute, Family Controls, and Nessa Now. It includes founder, technical, and family workflow demo scripts plus a synthetic worksheet, redaction sample, Linked Devices explainer, and launch checklist. See [docs/38-public-demo-and-marketing-pack.md](./docs/38-public-demo-and-marketing-pack.md).
 
+Linked-device MTP note, 2026-05-22: the public pattern now treats MTP as a private owner/advanced preview lane, not a default Fast or Auto replacement. The reusable lesson is to promote only after direct runtime proof, product-gateway proof, authenticated local or tunneled access, fallback proof, account-policy gating, and explicit stream completion state for long generations. See [docs/04-linked-devices-public-pattern.md](./docs/04-linked-devices-public-pattern.md) and [docs/03-inference-lanes.md](./docs/03-inference-lanes.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
