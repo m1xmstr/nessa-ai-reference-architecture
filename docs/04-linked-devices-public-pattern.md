@@ -26,9 +26,26 @@ The Apple Silicon lane is especially useful for:
 - MLX / Metal model tests
 - private image-generation experiments
 - high-memory local reasoning tests
+- multi-token prediction (MTP) preview inference when the runtime, model, and product policy all support it
 - interactive validation before a model is promoted elsewhere
 
 This lane complements the Strix Halo OpenShift worker. The Strix Halo node is platform infrastructure. The MacBook Pro is a user-approved private endpoint.
+
+## Private MTP Preview Lane
+
+MTP can be treated as a private linked-device inference lane instead of a default production model route.
+
+Public-safe pattern:
+
+- build and verify a current local runtime that explicitly supports MTP
+- use MTP-converted model artifacts, not standard model files
+- bind local inference to localhost or a trusted tunnel
+- require authentication between the product connector and the local runtime
+- expose the lane as an owner/advanced preview, not as a Basic-mode raw model id
+- keep normal production routing unchanged until app-path proof is strong enough
+- if the preview is unavailable, say so and use the current allowed local policy rather than pretending the preview handled the request
+
+This makes the device useful for high-quality private experiments while keeping the product honest about route truth and fallback.
 
 ## Thunderbolt 5 Sideband Pattern
 
@@ -58,6 +75,8 @@ Two public patterns are useful:
 
 - **Explicit selection**: the user chooses a device or private lane. If it is not ready, the request fails closed.
 - **Automatic routing**: the product may choose a suitable lane when policy allows. It still needs to report route truth and respect privacy settings.
+
+Preview lanes can be slightly different: the product may fall back to the current allowed local policy when a preview endpoint is unavailable, but only if the UI clearly says the preview was unavailable and diagnostics record the actual route.
 
 ## Fail-Closed Behavior
 

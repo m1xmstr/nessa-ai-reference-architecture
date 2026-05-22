@@ -9,7 +9,7 @@ This document explains Nessa AI inference lanes at an architecture level. It int
 | Lane | Public-safe role | Boundary |
 |---|---|---|
 | OpenShift / Strix Halo | Cluster-hosted accelerated inference and model-serving experiments | OpenShift governed, validated before promotion |
-| Apple Silicon Linked Device | User-approved private compute endpoint for OCR, AI Vision, image workflows, and high-memory model tests | Not an OpenShift worker, not a KServe pod |
+| Apple Silicon Linked Device | User-approved private compute endpoint for OCR, AI Vision, image workflows, MTP previews, and high-memory model tests | Not an OpenShift worker, not a KServe pod |
 | CPU historical baseline | Historical fallback and comparison lane | Useful for baseline and resilience, not all workloads |
 | BYO-AI provider | User-controlled external provider option | Explicit user choice only |
 | Fail-closed private route | Privacy protection behavior | No silent external fallback when privacy forbids it |
@@ -71,11 +71,29 @@ The Apple Silicon lane is strongest when the request benefits from:
 - OCR and AI Vision
 - document/photo understanding
 - MLX / Metal-optimized model execution
+- MTP-capable local runtimes with MTP-converted model artifacts
 - private image-generation experiments
 - high-memory local reasoning tests such as GPT-OSS 120B class models
 - fast local iteration when the approved device is available
 
 In product terms, this is why the MacBook Pro M5 Max lane became especially important for worksheet, document, photo, and vision-heavy workflows.
+
+### MTP as a preview lane
+
+Multi-token prediction should start as an owner/advanced preview lane, not a default Fast replacement.
+
+Public-safe rollout pattern:
+
+- verify the local runtime exposes MTP support
+- test MTP-specific model artifacts first
+- benchmark direct runtime calls before routing through the product
+- benchmark product gateway calls before production exposure
+- keep the endpoint authenticated and local or tunneled
+- record the actual route/model used
+- preserve a clear fallback if the preview device is unavailable
+- avoid public claims about a high-speed physical link until topology isolation proves it
+
+This lets a private device create a "wow" candidate lane without weakening normal routing, family safety, or privacy boundaries.
 
 ## Strix Halo vs M5 Max
 
