@@ -45,6 +45,23 @@ Typical public-safe llama.cpp concepts:
 
 Exact private launch scripts, tokens, model paths, and connector routes should stay private.
 
+## Strix Halo MTP Preview Under OpenShift
+
+A Strix Halo class worker can host an MTP preview lane directly under OpenShift, but it should still be treated as a preview until the product path proves clean.
+
+Reusable public-safe pattern:
+
+- build a fresh MTP-capable `llama.cpp` runtime instead of reusing an older serving image by assumption
+- verify `draft-mtp` support at runtime, not only at build time
+- prove the GPU backend selected by the container, such as Vulkan/RADV, and explicitly record when a run falls back to CPU
+- test the same model family, quant class, context, KV cache, template flags, and draft-count settings used by the comparison lane
+- run direct runtime benchmarks before gateway benchmarks
+- run product-gateway and full app-path canaries before exposing the owner selector
+- keep the preview disabled when direct runtime proof passes but full app routing shows timeout, fallback, or route-contamination issues
+- record owner/admin diagnostics for selected route, actual model, backend, device, first token, token cadence, latest eval p50/p95, fallback reason, stream finish reason, and persistence state
+
+The important lesson is that "the model is fast directly" and "the product route is ready" are different proofs. An OpenShift-hosted Strix Halo MTP lane should pass both before it becomes the headline preview lane.
+
 ## Security Boundary
 
 A linked-device MTP lane should be private by default.
