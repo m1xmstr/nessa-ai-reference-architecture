@@ -14,6 +14,8 @@ This document explains Nessa AI inference lanes at an architecture level. It int
 | BYO-AI provider | User-controlled external provider option | Explicit user choice only |
 | Fail-closed private route | Privacy protection behavior | No silent external fallback when privacy forbids it |
 
+An Answer Engine should sit above these lanes. Users select friendly modes such as Fast, Auto, Thinking, Extended Thinking, or owner-only Preview. The platform maps those modes to governed internal route categories, records sanitized route truth, and hides raw model or infrastructure details from Basic users. See [42-private-answer-engine-governed-routes.md](./42-private-answer-engine-governed-routes.md).
+
 ## OpenShift / Strix Halo Lane
 
 The Strix Halo lane represents high-memory local accelerated inference hosted as part of the OpenShift platform.

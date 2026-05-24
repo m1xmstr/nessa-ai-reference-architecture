@@ -43,6 +43,7 @@ Start with:
 - [39-public-demo-scripts.md](./39-public-demo-scripts.md)
 - [40-public-demo-gallery-and-launch-checklist.md](./40-public-demo-gallery-and-launch-checklist.md)
 - [41-owner-only-linked-device-mtp-preview.md](./41-owner-only-linked-device-mtp-preview.md)
+- [42-private-answer-engine-governed-routes.md](./42-private-answer-engine-governed-routes.md)
 
 Diagrams:
 
@@ -90,3 +91,4 @@ UX and continuity highlights:
 - [39-public-demo-scripts.md](./39-public-demo-scripts.md)
 - [40-public-demo-gallery-and-launch-checklist.md](./40-public-demo-gallery-and-launch-checklist.md)
 - [41-owner-only-linked-device-mtp-preview.md](./41-owner-only-linked-device-mtp-preview.md)
+- [42-private-answer-engine-governed-routes.md](./42-private-answer-engine-governed-routes.md)

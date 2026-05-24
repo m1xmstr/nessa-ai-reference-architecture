@@ -67,6 +67,9 @@ The canary gate should include edge-sensitive checks such as public legal render
 Useful staging checks:
 
 - send one chat message and verify markdown stays structured after streaming
+- verify Answer Engine route truth is recorded in sanitized form without leaking raw route IDs or model filenames
+- prove owner-only preview modes deny non-owner and child override attempts
+- prove long story and code streams complete or offer continuation
 - upload a small document and verify it appears after reload
 - validate family-owner state and invite availability
 - validate linked-device no-device, offline, and ready states

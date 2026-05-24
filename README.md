@@ -105,6 +105,8 @@ Public demo and marketing note, 2026-05-14: the public-safe demo package now exp
 
 Linked-device MTP note, 2026-05-23: the public pattern now treats MTP as a private owner/advanced preview lane, not a default Fast or Auto replacement. The reusable lesson is to promote only after direct runtime proof, product-gateway proof, authenticated local or tunneled access, fallback proof, account-policy gating, explicit stream completion state for long generations, and OpenShift AI governance evidence. See [docs/41-owner-only-linked-device-mtp-preview.md](./docs/41-owner-only-linked-device-mtp-preview.md), [docs/04-linked-devices-public-pattern.md](./docs/04-linked-devices-public-pattern.md), and [docs/03-inference-lanes.md](./docs/03-inference-lanes.md).
 
+Private Answer Engine note, 2026-05-23: the public pattern is friendly modes over governed internal routes. Basic users should see stable product modes, while owner/admin diagnostics can record sanitized route truth, fallback truth, stream finish state, latency, continuation state, and privacy class without exposing model filenames, private route IDs, routing heuristics, hardware addresses, or cluster details. See [docs/42-private-answer-engine-governed-routes.md](./docs/42-private-answer-engine-governed-routes.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -123,6 +125,7 @@ See also [docs/37-new-chat-context-starters-and-weather-truth.md](./docs/37-new-
 See also [docs/38-public-demo-and-marketing-pack.md](./docs/38-public-demo-and-marketing-pack.md).
 See also [docs/39-public-demo-scripts.md](./docs/39-public-demo-scripts.md).
 See also [docs/40-public-demo-gallery-and-launch-checklist.md](./docs/40-public-demo-gallery-and-launch-checklist.md).
+See also [docs/42-private-answer-engine-governed-routes.md](./docs/42-private-answer-engine-governed-routes.md).
 
 ## Hardware Lab at a Glance
 

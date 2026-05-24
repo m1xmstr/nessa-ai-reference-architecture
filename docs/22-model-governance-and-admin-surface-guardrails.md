@@ -20,6 +20,8 @@ Basic mode should not expose raw model inventory, device-specific model strings,
 
 Advanced mode can expose more technical detail, but only when the viewer is authenticated, eligible, and not a child or restricted family member.
 
+The same principle applies to an Answer Engine. Basic users should see friendly modes; owner/admin diagnostics can record sanitized route truth, fallback reason, stream finish state, latency, continuation state, and privacy class. That diagnostic record should describe the class of route used without publishing private model filenames, raw internal route IDs, hardware identifiers, or exact routing heuristics.
+
 ## Governance Access
 
 Governance surfaces should be role-gated at more than one layer:
