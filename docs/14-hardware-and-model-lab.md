@@ -63,6 +63,8 @@ Public-safe lessons from this program:
 - exact GPU exposure matters more than marketing names
 - ROCm assumptions did not map cleanly to every path we needed
 - Vulkan / RADV and GGUF-based runtimes were practical in the validated lane
+- MTP testing had to be repeated with the same model family, practical quant class, current `llama.cpp`, identical flags, and backend/offload truth before judging the hardware path
+- direct and gateway MTP controls can look good while the full app route still needs route-isolation, first-token, fallback, and stream-finalization work before owner-preview exposure
 - local NVMe model cache mattered
 - OpenShift resource requests, node placement, and warmup checks mattered
 - every model needed real load, latency, and output-quality proof before promotion

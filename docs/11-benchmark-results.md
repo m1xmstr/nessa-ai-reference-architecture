@@ -49,6 +49,19 @@ The MacBook Pro M5 Max lane is included here because it changed what the product
 
 This repo does not publish hardware IDs, private route names, private prompt suites, model-cache paths, or connector internals.
 
+## MTP Preview Findings
+
+MTP benchmarking added one important benchmark discipline rule: compare like with like before declaring a lane weak.
+
+Public-safe results from the current lab:
+
+- an older heavy-quant Strix Halo test was slow and useful only as a stress comparison
+- a newer same-family practical-quant Strix Halo test with current `llama.cpp`, explicit MTP flags, and Vulkan/RADV backend proof was materially faster in direct runtime and gateway controls
+- the Apple Silicon MTP lane remained a useful owner-only fallback/witness, but it should not be treated as the strategic endpoint just because one early Strix test used a less favorable setup
+- the full app route, not the raw runtime, became the promotion blocker when it showed route-contamination, first-token, or stream-finalization risk
+
+The reusable lesson: publish direct runtime numbers only with backend/offload truth, and promote product routes only after direct, gateway, browser, fallback, and stream-completion proof all agree.
+
 ## Database migration impact
 | Metric | SQLite | PostgreSQL | Improvement |
 |--------|--------|------------|-------------|

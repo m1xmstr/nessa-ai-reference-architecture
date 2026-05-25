@@ -1,6 +1,6 @@
 # Owner-Only Linked-Device MTP Preview Pattern
 
-Last updated: 2026-05-23
+Last updated: 2026-05-25
 
 This document describes a public-safe pattern for using Multi-Token Prediction (MTP) as a private linked-device inference lane.
 
@@ -61,6 +61,40 @@ Reusable public-safe pattern:
 - record owner/admin diagnostics for selected route, actual model, backend, device, first token, token cadence, latest eval p50/p95, fallback reason, stream finish reason, and persistence state
 
 The important lesson is that "the model is fast directly" and "the product route is ready" are different proofs. An OpenShift-hosted Strix Halo MTP lane should pass both before it becomes the headline preview lane.
+
+## Initial Strix Halo MTP Findings
+
+The first public-safe finding is that an unfair comparison can make MTP look worse than it is.
+
+A heavy quant-only run on the Strix Halo OpenShift path was useful as a stress datapoint, but it was not a fair comparison against a smaller, newer, better-tuned Apple Silicon MTP lane. The repeatable public-safe test standard is now:
+
+- same model family
+- comparable quant class
+- same context and template behavior
+- same draft-token settings
+- current MTP-aware `llama.cpp`
+- explicit GPU backend/offload proof
+- direct runtime, gateway, and full app-path measurements
+
+Under that standard, the Strix Halo path looked materially better with practical smaller quants and a current Vulkan/RADV-capable runtime. Direct runtime and gateway controls were promising enough to treat Strix Halo MTP as a serious owner-preview candidate, not as a failed hardware idea.
+
+The second finding is that the product path can be the real blocker. The validated pattern was:
+
+| Layer | Public-safe result | Lesson |
+|---|---|---|
+| Older heavy-quant Strix run | Too slow for owner-preview expectations | Do not judge a lane from a mismatched quant/runtime path |
+| Current Strix direct runtime | Promising after matching model family, quant class, flags, and GPU backend proof | Hardware/runtime path can be viable |
+| Current Strix gateway path | Promising when the gateway stays thin and fallback-free | Gateway proof is necessary but not sufficient |
+| Full Nessa app path | Initially exposed routing contamination, first-token, and finalization issues | Product route isolation is the promotion gate |
+| Apple Silicon MTP lane | Useful owner-only fallback/witness | A fast witness lane should not become the strategic dependency by accident |
+
+The public architecture decision is therefore not "MTP failed" or "Strix wins." The stronger decision is:
+
+- keep Strix Halo in OpenShift when the supported container/runtime path is good enough
+- keep Mac MTP as owner-only fallback/witness, not the headline endpoint
+- do not move a production OpenShift worker to an external appliance path unless the same-hardware OpenShift path is proved incapable
+- do not keep large MTP runtimes artificially warm if the idle fan/noise and resource cost exceed current product value
+- expose native Strix MTP only behind owner/admin preview policy after the full app route passes
 
 ## Security Boundary
 
