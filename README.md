@@ -276,6 +276,7 @@ Primary public reference docs:
 - [docs/17-hardware-and-model-lab.md](./docs/17-hardware-and-model-lab.md)
 - [docs/18-camera-ux-design.md](./docs/18-camera-ux-design.md)
 - [docs/29-dual-sideband-transfer-pattern.md](./docs/29-dual-sideband-transfer-pattern.md)
+- [docs/44-structured-recipe-discovery-pattern.md](./docs/44-structured-recipe-discovery-pattern.md)
 
 Diagrams:
 
