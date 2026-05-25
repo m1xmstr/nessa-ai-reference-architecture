@@ -107,6 +107,8 @@ Linked-device MTP note, 2026-05-23: the public pattern now treats MTP as a priva
 
 Private Answer Engine note, 2026-05-23: the public pattern is friendly modes over governed internal routes. Basic users should see stable product modes, while owner/admin diagnostics can record sanitized route truth, fallback truth, stream finish state, latency, continuation state, and privacy class without exposing model filenames, private route IDs, routing heuristics, hardware addresses, or cluster details. See [docs/42-private-answer-engine-governed-routes.md](./docs/42-private-answer-engine-governed-routes.md).
 
+Authenticated thread URL note, 2026-05-24: the public pattern is per-chat continuity without public sharing. A private assistant can give each persisted chat an opaque, non-sequential URL for authenticated history, reload, support, and QA proof while keeping empty new chat clean, preserving incognito policy, denying unauthorized access without existence leaks, and hiding raw database ids, account ids, model details, routes, hardware details, private paths, and debug internals from Basic users. See [docs/43-authenticated-chat-thread-urls.md](./docs/43-authenticated-chat-thread-urls.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).

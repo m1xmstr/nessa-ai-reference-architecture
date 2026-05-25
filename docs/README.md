@@ -44,6 +44,7 @@ Start with:
 - [40-public-demo-gallery-and-launch-checklist.md](./40-public-demo-gallery-and-launch-checklist.md)
 - [41-owner-only-linked-device-mtp-preview.md](./41-owner-only-linked-device-mtp-preview.md)
 - [42-private-answer-engine-governed-routes.md](./42-private-answer-engine-governed-routes.md)
+- [43-authenticated-chat-thread-urls.md](./43-authenticated-chat-thread-urls.md)
 
 Diagrams:
 
@@ -92,3 +93,4 @@ UX and continuity highlights:
 - [40-public-demo-gallery-and-launch-checklist.md](./40-public-demo-gallery-and-launch-checklist.md)
 - [41-owner-only-linked-device-mtp-preview.md](./41-owner-only-linked-device-mtp-preview.md)
 - [42-private-answer-engine-governed-routes.md](./42-private-answer-engine-governed-routes.md)
+- [43-authenticated-chat-thread-urls.md](./43-authenticated-chat-thread-urls.md)
