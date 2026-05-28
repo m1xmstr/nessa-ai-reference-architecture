@@ -47,6 +47,7 @@ Start with:
 - [43-authenticated-chat-thread-urls.md](./43-authenticated-chat-thread-urls.md)
 - [44-structured-recipe-discovery-pattern.md](./44-structured-recipe-discovery-pattern.md)
 - [45-learning-mission-control-and-native-mtp-rollout.md](./45-learning-mission-control-and-native-mtp-rollout.md)
+- [46-worksheet-first-tutor-session-layout.md](./46-worksheet-first-tutor-session-layout.md)
 
 Diagrams:
 
@@ -98,3 +99,4 @@ UX and continuity highlights:
 - [43-authenticated-chat-thread-urls.md](./43-authenticated-chat-thread-urls.md)
 - [44-structured-recipe-discovery-pattern.md](./44-structured-recipe-discovery-pattern.md)
 - [45-learning-mission-control-and-native-mtp-rollout.md](./45-learning-mission-control-and-native-mtp-rollout.md)
+- [46-worksheet-first-tutor-session-layout.md](./46-worksheet-first-tutor-session-layout.md)
