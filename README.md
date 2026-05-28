@@ -109,6 +109,8 @@ Private Answer Engine note, 2026-05-23: the public pattern is friendly modes ove
 
 Authenticated thread URL note, 2026-05-24: the public pattern is per-chat continuity without public sharing. A private assistant can give each persisted chat an opaque, non-sequential URL for authenticated history, reload, support, and QA proof while keeping empty new chat clean, preserving incognito policy, denying unauthorized access without existence leaks, and hiding raw database ids, account ids, model details, routes, hardware details, private paths, and debug internals from Basic users. See [docs/43-authenticated-chat-thread-urls.md](./docs/43-authenticated-chat-thread-urls.md).
 
+Learning mission-control and native MTP rollout note, 2026-05-28: the public pattern is to make Learning surfaces expose real worksheet problem state only after extraction has proved it, and to roll native MTP into a high-deliberation owner/admin lane before making it an Auto default. Mission controls should open real study sessions and send real teach-first actions, not fake cards. Native MTP should keep full app route proof, fallback truth, persisted final-message proof, and idle-resource telemetry ahead of broad routing changes. See [docs/45-learning-mission-control-and-native-mtp-rollout.md](./docs/45-learning-mission-control-and-native-mtp-rollout.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -128,6 +130,7 @@ See also [docs/38-public-demo-and-marketing-pack.md](./docs/38-public-demo-and-m
 See also [docs/39-public-demo-scripts.md](./docs/39-public-demo-scripts.md).
 See also [docs/40-public-demo-gallery-and-launch-checklist.md](./docs/40-public-demo-gallery-and-launch-checklist.md).
 See also [docs/42-private-answer-engine-governed-routes.md](./docs/42-private-answer-engine-governed-routes.md).
+See also [docs/45-learning-mission-control-and-native-mtp-rollout.md](./docs/45-learning-mission-control-and-native-mtp-rollout.md).
 
 ## Hardware Lab at a Glance
 

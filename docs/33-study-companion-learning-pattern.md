@@ -40,6 +40,20 @@ Public-safe UI pieces:
 
 The focus should follow the student's latest strong signal. A stated problem number or restated equation should beat stale state.
 
+## Mission Control
+
+A study companion dashboard can act as mission control when it is backed by real worksheet state.
+
+Public-safe mission-control behavior:
+
+- show problem cards only after extraction has indexed real worksheet problems
+- keep the active file and active problem visible
+- open the selected problem in the real study session
+- wire hint, check-work, steps, and parent-recap actions to the same tutor path as typed messages
+- show a plain empty state when there is no indexed worksheet state yet
+
+This avoids the common failure mode where a Learning page looks polished but its controls are disconnected from the lesson engine.
+
 ## Teach-First Actions
 
 The study companion should separate common learning intents:
@@ -93,4 +107,3 @@ A serious study companion release should prove the full workflow in staging befo
 - prove mobile usability
 
 The public lesson is that Learning quality comes from workflow discipline, not only model quality.
-

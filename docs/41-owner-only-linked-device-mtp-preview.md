@@ -96,6 +96,19 @@ The public architecture decision is therefore not "MTP failed" or "Strix wins." 
 - do not keep large MTP runtimes artificially warm if the idle fan/noise and resource cost exceed current product value
 - expose native Strix MTP only behind owner/admin preview policy after the full app route passes
 
+## Native Thinking Lane
+
+After direct runtime, gateway, and full app route proof pass, a useful next step is enabling native MTP for an explicit high-deliberation mode such as Thinking while keeping Auto unchanged.
+
+That rollout shape preserves the product contract:
+
+- users who choose more deliberate reasoning can benefit from the accelerated lane
+- ordinary Auto traffic stays on its existing governed policy until a separate canary says otherwise
+- owner/admin policy, child/restricted denial, fallback truth, stream finalization, and final-message persistence remain required
+- idle telemetry decides whether the runtime should stay resident or be demand-scaled
+
+This is more defensible than turning MTP on everywhere after a benchmark. The full app route has to prove that the faster lane is also a reliable product lane.
+
 ## Security Boundary
 
 A linked-device MTP lane should be private by default.

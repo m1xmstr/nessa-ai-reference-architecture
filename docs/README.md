@@ -46,6 +46,7 @@ Start with:
 - [42-private-answer-engine-governed-routes.md](./42-private-answer-engine-governed-routes.md)
 - [43-authenticated-chat-thread-urls.md](./43-authenticated-chat-thread-urls.md)
 - [44-structured-recipe-discovery-pattern.md](./44-structured-recipe-discovery-pattern.md)
+- [45-learning-mission-control-and-native-mtp-rollout.md](./45-learning-mission-control-and-native-mtp-rollout.md)
 
 Diagrams:
 
@@ -96,3 +97,4 @@ UX and continuity highlights:
 - [42-private-answer-engine-governed-routes.md](./42-private-answer-engine-governed-routes.md)
 - [43-authenticated-chat-thread-urls.md](./43-authenticated-chat-thread-urls.md)
 - [44-structured-recipe-discovery-pattern.md](./44-structured-recipe-discovery-pattern.md)
+- [45-learning-mission-control-and-native-mtp-rollout.md](./45-learning-mission-control-and-native-mtp-rollout.md)
