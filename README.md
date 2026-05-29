@@ -113,6 +113,8 @@ Learning mission-control and native MTP rollout note, 2026-05-28: the public pat
 
 Worksheet-first tutor session note, 2026-05-28: the public UX pattern is to make the worksheet the primary visible surface, move problem picking into the tutor pane, reduce direct tutor actions to a small teach-first set, and prove fit-to-page with browser geometry instead of button state alone. See [docs/46-worksheet-first-tutor-session-layout.md](./docs/46-worksheet-first-tutor-session-layout.md).
 
+Writing follow-up truth note, 2026-05-29: one-click actions such as `Expand this` need their own product contract. They should preserve the selected lane, validate that the revised draft is materially better, avoid late no-op preservation, and render the revised result rather than a bulky before/after comparison by default. See [docs/47-writing-followup-truth-and-result-ui.md](./docs/47-writing-followup-truth-and-result-ui.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -134,6 +136,7 @@ See also [docs/40-public-demo-gallery-and-launch-checklist.md](./docs/40-public-
 See also [docs/42-private-answer-engine-governed-routes.md](./docs/42-private-answer-engine-governed-routes.md).
 See also [docs/45-learning-mission-control-and-native-mtp-rollout.md](./docs/45-learning-mission-control-and-native-mtp-rollout.md).
 See also [docs/46-worksheet-first-tutor-session-layout.md](./docs/46-worksheet-first-tutor-session-layout.md).
+See also [docs/47-writing-followup-truth-and-result-ui.md](./docs/47-writing-followup-truth-and-result-ui.md).
 
 ## Hardware Lab at a Glance
 

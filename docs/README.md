@@ -48,6 +48,7 @@ Start with:
 - [44-structured-recipe-discovery-pattern.md](./44-structured-recipe-discovery-pattern.md)
 - [45-learning-mission-control-and-native-mtp-rollout.md](./45-learning-mission-control-and-native-mtp-rollout.md)
 - [46-worksheet-first-tutor-session-layout.md](./46-worksheet-first-tutor-session-layout.md)
+- [47-writing-followup-truth-and-result-ui.md](./47-writing-followup-truth-and-result-ui.md)
 
 Diagrams:
 
@@ -100,3 +101,4 @@ UX and continuity highlights:
 - [44-structured-recipe-discovery-pattern.md](./44-structured-recipe-discovery-pattern.md)
 - [45-learning-mission-control-and-native-mtp-rollout.md](./45-learning-mission-control-and-native-mtp-rollout.md)
 - [46-worksheet-first-tutor-session-layout.md](./46-worksheet-first-tutor-session-layout.md)
+- [47-writing-followup-truth-and-result-ui.md](./47-writing-followup-truth-and-result-ui.md)
