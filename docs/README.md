@@ -49,6 +49,7 @@ Start with:
 - [45-learning-mission-control-and-native-mtp-rollout.md](./45-learning-mission-control-and-native-mtp-rollout.md)
 - [46-worksheet-first-tutor-session-layout.md](./46-worksheet-first-tutor-session-layout.md)
 - [47-writing-followup-truth-and-result-ui.md](./47-writing-followup-truth-and-result-ui.md)
+- [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md)
 
 Diagrams:
 
@@ -102,3 +103,12 @@ UX and continuity highlights:
 - [45-learning-mission-control-and-native-mtp-rollout.md](./45-learning-mission-control-and-native-mtp-rollout.md)
 - [46-worksheet-first-tutor-session-layout.md](./46-worksheet-first-tutor-session-layout.md)
 - [47-writing-followup-truth-and-result-ui.md](./47-writing-followup-truth-and-result-ui.md)
+- [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md)
+
+Red Hat platform deep dive:
+
+- [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md)
+- [02-red-hat-stack.md](./02-red-hat-stack.md)
+- [05-openshift-ai-and-aap.md](./05-openshift-ai-and-aap.md)
+- [24-release-truth-and-canary-gates.md](./24-release-truth-and-canary-gates.md)
+- [41-owner-only-linked-device-mtp-preview.md](./41-owner-only-linked-device-mtp-preview.md)

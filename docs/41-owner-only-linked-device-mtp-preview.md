@@ -6,6 +6,8 @@ This document describes a public-safe pattern for using Multi-Token Prediction (
 
 It intentionally omits private route names, connector internals, endpoint addresses, authentication details, node names, hostnames, tokens, model cache paths, and private benchmark artifacts.
 
+For how MTP fits into the larger OpenShift, OpenShift AI, AAP, and EDA platform lifecycle, see [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md).
+
 ## Product Shape
 
 MTP is best introduced as an owner/admin preview lane, not as a default model replacement.
@@ -193,3 +195,5 @@ The strong pattern is not "turn on MTP everywhere." The strong pattern is:
 5. prove fallback and stream finalization
 6. use OpenShift AI for governance and repeatable evidence
 7. promote only what the product path proves
+
+The platform version of this pattern is captured in [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md): direct runtime proof, gateway proof, full app proof, release-gate proof, then bounded promotion.

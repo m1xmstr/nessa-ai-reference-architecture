@@ -11,3 +11,5 @@ Files included:
 - `hpa-and-pdb.yaml`: basic autoscaling and disruption control
 - `inferenceservice-amd-vulkan.yaml`: sanitized OpenShift AI / KServe serving example
 - `service-and-route.yaml`: service plus route for user-facing traffic
+
+For a deeper explanation of how these OpenShift patterns connect to OpenShift AI, AAP, EDA, ODF/Ceph, OpenShift Virtualization, and MTP rollout discipline, see [../../docs/48-red-hat-platform-deep-dive.md](../../docs/48-red-hat-platform-deep-dive.md).

@@ -7,6 +7,8 @@ That sequencing mattered.
 
 If the base app is still unstable, OpenShift AI and AAP can add complexity without adding clarity. Once the base platform is stable, they become force multipliers.
 
+For the broader platform lifecycle, including OpenShift, OpenShift AI, AAP, EDA, OpenShift Virtualization, ODF/Ceph, and MTP lanes, see [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md).
+
 ## What OpenShift AI Contributed
 OpenShift AI made the architecture more credible in four ways:
 - it gave the cluster a first-class model-serving story
@@ -105,10 +107,13 @@ Worth it:
 - KServe as a dedicated serving lane
 - notebooks as demo and validation tooling
 - AAP for repeatable ops checks and walkthrough prep
+- AAP schedules for periodic maintenance that is not truly event-driven
+- EDA only where a real event needs to trigger a bounded runbook
 
 Less valuable than expected:
 - trying to push all application behavior into the AI platform objects
 - using AAP where a simple shell script or single `oc` probe was already sufficient
+- leaving an EDA activation running after the real workflow had become a scheduled Controller job
 
 ## Recommended Usage Model
 Use OpenShift AI when you need:
@@ -123,3 +128,5 @@ Use AAP when you need:
 - a reusable automation record for tasks operators will run repeatedly
 
 Do not assume either one replaces application engineering. They strengthen the platform. They do not remove the need for clear app behavior.
+
+Use EDA when an event exists. Use AAP schedules when time is the trigger. Retire stale activations instead of letting them become public operational noise.

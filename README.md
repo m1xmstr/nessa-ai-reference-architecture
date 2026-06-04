@@ -115,6 +115,8 @@ Worksheet-first tutor session note, 2026-05-28: the public UX pattern is to make
 
 Writing follow-up truth note, 2026-05-29: one-click actions such as `Expand this` need their own product contract. They should preserve the selected lane, validate that the revised draft is materially better, avoid late no-op preservation, and render the revised result rather than a bulky before/after comparison by default. See [docs/47-writing-followup-truth-and-result-ui.md](./docs/47-writing-followup-truth-and-result-ui.md).
 
+Red Hat platform deep-dive note, 2026-06-04: the public reference now includes a deeper explanation of how OpenShift, OpenShift AI, AAP, EDA, OpenShift Virtualization, ODF/Ceph, and MTP lanes divide responsibility in a private AI platform. The pattern is OpenShift as the application and operations foundation, OpenShift AI as the governed serving/evaluation plane, AAP as repeatable scheduled automation, EDA as bounded event-to-runbook automation, and MTP as a proof-gated preview/high-deliberation lane rather than an automatic default. See [docs/48-red-hat-platform-deep-dive.md](./docs/48-red-hat-platform-deep-dive.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -137,6 +139,7 @@ See also [docs/42-private-answer-engine-governed-routes.md](./docs/42-private-an
 See also [docs/45-learning-mission-control-and-native-mtp-rollout.md](./docs/45-learning-mission-control-and-native-mtp-rollout.md).
 See also [docs/46-worksheet-first-tutor-session-layout.md](./docs/46-worksheet-first-tutor-session-layout.md).
 See also [docs/47-writing-followup-truth-and-result-ui.md](./docs/47-writing-followup-truth-and-result-ui.md).
+See also [docs/48-red-hat-platform-deep-dive.md](./docs/48-red-hat-platform-deep-dive.md).
 
 ## Hardware Lab at a Glance
 
@@ -160,6 +163,8 @@ See [docs/14-hardware-and-model-lab.md](./docs/14-hardware-and-model-lab.md).
 - **ODF / Ceph**: durable storage patterns for platform state, document storage, workspace storage, and model-serving persistence.
 
 Product names are used factually. This repository does not imply Red Hat endorsement of Nessa AI.
+
+For a deeper public-safe explanation of how these products work together, see [docs/48-red-hat-platform-deep-dive.md](./docs/48-red-hat-platform-deep-dive.md).
 
 ## Hardware and Inference Lanes
 

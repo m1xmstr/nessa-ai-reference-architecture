@@ -4,6 +4,8 @@
 
 This document explains how Nessa AI uses Red Hat technologies in practical, customer-facing architecture language. It avoids vendor-brochure tone and avoids private TryNessa.com implementation detail.
 
+For a deeper lifecycle view of how OpenShift, OpenShift AI, AAP, EDA, OpenShift Virtualization, ODF/Ceph, and MTP lanes work together, see [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md).
+
 ## OpenShift
 
 OpenShift is the foundation for the private AI platform.
@@ -103,3 +105,5 @@ This repo is useful for:
 - AAP and EDA operational examples
 - teams comparing CPU, Strix Halo, Apple Silicon, and BYO provider lanes
 - builders who want private AI patterns without copying TryNessa.com
+
+The companion deep-dive page adds the practical division of responsibility: OpenShift owns platform truth, OpenShift AI owns governed serving/evaluation, AAP owns repeatable scheduled automation, EDA owns bounded event-to-runbook paths, and MTP remains proof-gated until the full app route proves it.
