@@ -136,6 +136,23 @@ Good AAP templates have:
 - a readable final summary
 - no secret values in stdout
 
+## Scheduled Sweeps
+
+Routine evidence collection should usually be a scheduled Controller job, not an always-on EDA activation.
+
+A good scheduled sweep:
+
+- has a business-facing name that describes the job, not the tool or person that created it
+- gathers evidence from the current live pods or endpoints instead of relying on stale pod names
+- treats intentionally parked environments as a valid state
+- records parked, awake, and unhealthy states separately
+- fails only when the required production dependencies for that sweep are unavailable
+- writes a short summary that an operator can understand without reading the whole playbook
+
+This distinction matters for staging and demo environments. If staging is intentionally parked to save capacity, a daily evidence-collection job should not fail just because no staging web pod is running. A separate product-surface or readiness audit can still fail when staging is supposed to be awake but has no ready pod.
+
+The same principle applies to VM or image maintenance. Weekly image refresh, retention, and promotion workflows are usually scheduled maintenance. They should not become permanent EDA activations unless there is a real event stream and a bounded diagnostic action to perform.
+
 ## EDA
 
 Event-Driven Ansible is useful when there is a real event.
@@ -146,7 +163,7 @@ Good EDA fits:
 - release webhook to deployment gate
 - Git or CI event to audit job
 - product-surface event to health or validation template
-- owner notification event to a controlled automation path
+- named product or operator event to a controlled automation path
 
 Weak EDA fits:
 
@@ -158,6 +175,15 @@ Weak EDA fits:
 
 The public pattern is simple: if a workflow is periodic maintenance, schedule it in AAP. If a workflow is truly event-driven, use EDA, but keep the activation observable and keep its Service selector synced to the live activation pod.
 
+Good EDA activations also need names that explain their role. A generic or tool-branded watcher name becomes confusing later. A name such as "Hotword Watcher", "Release Gate", or "Alert Responder" communicates what event the activation handles and what runbook family it should launch.
+
+For webhook-backed activations, service and route hygiene is part of the system:
+
+- the Service should select the current activation pod, not a stale job pod
+- the Route should point to the current Service
+- retired activation routes should be removed instead of left as broken public endpoints
+- a dry-run service sync should show all webhook routes as healthy after any EDA refresh
+
 ## Scheduled AAP vs EDA
 
 Use this decision table:
@@ -168,6 +194,8 @@ Use this decision table:
 | Alert arrives from Alertmanager | EDA to AAP | Real event, bounded response |
 | Pre-release health snapshot | AAP job | Operator-triggered proof |
 | Deployment gate webhook | EDA to AAP | Event-driven release transition |
+| Daily hotword or feedback sweep | AAP schedule | Routine collection, not one job per note |
+| Explicit hotword or operator event | EDA to AAP | Real event that merits immediate triage |
 | Failed stale activation with zero events | Retire or rebuild | Visible failure noise is worse than no automation |
 | Demo content generation with survey input | AAP job template | Human input, repeatable artifact |
 

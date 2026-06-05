@@ -117,6 +117,8 @@ Writing follow-up truth note, 2026-05-29: one-click actions such as `Expand this
 
 Red Hat platform deep-dive note, 2026-06-04: the public reference now includes a deeper explanation of how OpenShift, OpenShift AI, AAP, EDA, OpenShift Virtualization, ODF/Ceph, and MTP lanes divide responsibility in a private AI platform. The pattern is OpenShift as the application and operations foundation, OpenShift AI as the governed serving/evaluation plane, AAP as repeatable scheduled automation, EDA as bounded event-to-runbook automation, and MTP as a proof-gated preview/high-deliberation lane rather than an automatic default. See [docs/48-red-hat-platform-deep-dive.md](./docs/48-red-hat-platform-deep-dive.md).
 
+Automation operating-model note, 2026-06-05: the public reference now calls out a practical AAP/EDA boundary that matters in real operations. Routine sweeps and maintenance belong in scheduled AAP Controller jobs that tolerate intentionally parked non-production environments. Explicit events belong in clearly named EDA watchers that launch bounded AAP triage templates and have clean webhook Service/Route ownership. See the scheduled sweep and EDA watcher sections in [docs/48-red-hat-platform-deep-dive.md](./docs/48-red-hat-platform-deep-dive.md) and [examples/aap/README.md](./examples/aap/README.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).

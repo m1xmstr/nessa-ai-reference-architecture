@@ -112,3 +112,4 @@ Red Hat platform deep dive:
 - [05-openshift-ai-and-aap.md](./05-openshift-ai-and-aap.md)
 - [24-release-truth-and-canary-gates.md](./24-release-truth-and-canary-gates.md)
 - [41-owner-only-linked-device-mtp-preview.md](./41-owner-only-linked-device-mtp-preview.md)
+- [../examples/aap/README.md](../examples/aap/README.md)
