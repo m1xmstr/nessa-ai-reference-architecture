@@ -121,6 +121,8 @@ Automation operating-model note, 2026-06-05: the public reference now calls out 
 
 Response-quality golden pack note, 2026-06-17: private AI releases need a small, replayable answer-quality pack that covers homework, writing, creative, code, factual, follow-up, and attachment-adjacent tasks before promotion. The public pattern is to measure the production baseline, fix concrete failure classes, run the pack in staging on the exact candidate, promote only that artifact, and rerun the pack in production after promotion. See [docs/49-response-quality-golden-pack.md](./docs/49-response-quality-golden-pack.md).
 
+Private chat archive storage note, 2026-06-17: persisted private AI conversations need an explicit archive lifecycle, not a hidden pile of undeletable or physically deleted rows. The public pattern is to separate active, archived, and deleted states; default history views should show active work only; archived items should remain restorable; deletion should be reversible enough for user safety and hard-delete should be reserved for explicit retention/cleanup flows. See [docs/50-private-chat-archive-storage.md](./docs/50-private-chat-archive-storage.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).

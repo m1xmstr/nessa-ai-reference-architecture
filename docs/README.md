@@ -51,6 +51,7 @@ Start with:
 - [47-writing-followup-truth-and-result-ui.md](./47-writing-followup-truth-and-result-ui.md)
 - [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md)
 - [49-response-quality-golden-pack.md](./49-response-quality-golden-pack.md)
+- [50-private-chat-archive-storage.md](./50-private-chat-archive-storage.md)
 
 Diagrams:
 
@@ -106,6 +107,7 @@ UX and continuity highlights:
 - [47-writing-followup-truth-and-result-ui.md](./47-writing-followup-truth-and-result-ui.md)
 - [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md)
 - [49-response-quality-golden-pack.md](./49-response-quality-golden-pack.md)
+- [50-private-chat-archive-storage.md](./50-private-chat-archive-storage.md)
 
 Red Hat platform deep dive:
 
