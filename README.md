@@ -119,6 +119,8 @@ Red Hat platform deep-dive note, 2026-06-04: the public reference now includes a
 
 Automation operating-model note, 2026-06-05: the public reference now calls out a practical AAP/EDA boundary that matters in real operations. Routine sweeps and maintenance belong in scheduled AAP Controller jobs that tolerate intentionally parked non-production environments. Explicit events belong in clearly named EDA watchers that launch bounded AAP triage templates and have clean webhook Service/Route ownership. See the scheduled sweep and EDA watcher sections in [docs/48-red-hat-platform-deep-dive.md](./docs/48-red-hat-platform-deep-dive.md) and [examples/aap/README.md](./examples/aap/README.md).
 
+Response-quality golden pack note, 2026-06-17: private AI releases need a small, replayable answer-quality pack that covers homework, writing, creative, code, factual, follow-up, and attachment-adjacent tasks before promotion. The public pattern is to measure the production baseline, fix concrete failure classes, run the pack in staging on the exact candidate, promote only that artifact, and rerun the pack in production after promotion. See [docs/49-response-quality-golden-pack.md](./docs/49-response-quality-golden-pack.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -142,6 +144,7 @@ See also [docs/45-learning-mission-control-and-native-mtp-rollout.md](./docs/45-
 See also [docs/46-worksheet-first-tutor-session-layout.md](./docs/46-worksheet-first-tutor-session-layout.md).
 See also [docs/47-writing-followup-truth-and-result-ui.md](./docs/47-writing-followup-truth-and-result-ui.md).
 See also [docs/48-red-hat-platform-deep-dive.md](./docs/48-red-hat-platform-deep-dive.md).
+See also [docs/49-response-quality-golden-pack.md](./docs/49-response-quality-golden-pack.md).
 
 ## Hardware Lab at a Glance
 

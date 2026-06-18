@@ -199,6 +199,9 @@ Public-safe guardrail lessons:
 - structured code artifacts need deterministic validation before the UI labels them safe
 - repair can be deterministic for common cases such as missing standard-library imports
 - historical messages should not be silently rewritten unless the user explicitly asks for that behavior
+- a response-quality golden pack should replay the highest-risk everyday tasks, compare production baseline to staging candidate, and rerun after promotion
+
+See [49-response-quality-golden-pack.md](./49-response-quality-golden-pack.md) for the public-safe pattern.
 
 ## Operations And Advisories
 

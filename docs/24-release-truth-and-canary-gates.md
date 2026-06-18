@@ -77,6 +77,20 @@ Useful staging checks:
 
 The goal is to prove the high-risk user paths at release time without turning every deploy into an uncontrolled broad QA pass.
 
+## Response-Quality Golden Pack
+
+Answer-quality changes should carry a small golden pack in addition to route and UI smoke checks. The pack should cover the workflows users notice first, such as homework help, writing, creative work, code explanation, factual answers, follow-up continuity, and attachment-adjacent prompts.
+
+The release discipline is:
+
+- run the pack against the current production baseline
+- fix concrete failures with targeted product or finalization changes
+- run the pack against staging on the exact candidate artifact
+- promote only the candidate that passed
+- rerun the pack against production after promotion
+
+See [49-response-quality-golden-pack.md](./49-response-quality-golden-pack.md) for the dedicated public-safe pattern.
+
 ## Workflow-Specific Quality Canaries
 
 Some failures are too specific to catch with a generic chat smoke test. A release gate should carry targeted canaries for the workflows that create the most trust risk.

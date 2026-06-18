@@ -50,6 +50,7 @@ Start with:
 - [46-worksheet-first-tutor-session-layout.md](./46-worksheet-first-tutor-session-layout.md)
 - [47-writing-followup-truth-and-result-ui.md](./47-writing-followup-truth-and-result-ui.md)
 - [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md)
+- [49-response-quality-golden-pack.md](./49-response-quality-golden-pack.md)
 
 Diagrams:
 
@@ -104,6 +105,7 @@ UX and continuity highlights:
 - [46-worksheet-first-tutor-session-layout.md](./46-worksheet-first-tutor-session-layout.md)
 - [47-writing-followup-truth-and-result-ui.md](./47-writing-followup-truth-and-result-ui.md)
 - [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md)
+- [49-response-quality-golden-pack.md](./49-response-quality-golden-pack.md)
 
 Red Hat platform deep dive:
 
