@@ -123,6 +123,8 @@ Response-quality golden pack note, 2026-06-17: private AI releases need a small,
 
 Private chat archive storage note, 2026-06-17: persisted private AI conversations need an explicit archive lifecycle, not a hidden pile of undeletable or physically deleted rows. The public pattern is to separate active, archived, and deleted states; default history views should show active work only; archived items should remain restorable; deletion should be reversible enough for user safety and hard-delete should be reserved for explicit retention/cleanup flows. See [docs/50-private-chat-archive-storage.md](./docs/50-private-chat-archive-storage.md).
 
+Private AI security hardening note, 2026-06-19: the public pattern treats browser-origin checks, bearer-token internal automation, prompt/tool injection, linked-device replay resistance, Smart Home discovery limits, and public-doc redaction as one product-security system. The lesson is to make AI-jacking and token misuse part of normal release proof, not only prompt copy. See [docs/51-private-ai-security-hardening-pattern.md](./docs/51-private-ai-security-hardening-pattern.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).

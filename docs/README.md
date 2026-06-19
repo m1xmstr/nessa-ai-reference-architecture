@@ -52,6 +52,7 @@ Start with:
 - [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md)
 - [49-response-quality-golden-pack.md](./49-response-quality-golden-pack.md)
 - [50-private-chat-archive-storage.md](./50-private-chat-archive-storage.md)
+- [51-private-ai-security-hardening-pattern.md](./51-private-ai-security-hardening-pattern.md)
 
 Diagrams:
 
@@ -108,6 +109,7 @@ UX and continuity highlights:
 - [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md)
 - [49-response-quality-golden-pack.md](./49-response-quality-golden-pack.md)
 - [50-private-chat-archive-storage.md](./50-private-chat-archive-storage.md)
+- [51-private-ai-security-hardening-pattern.md](./51-private-ai-security-hardening-pattern.md)
 
 Red Hat platform deep dive:
 
