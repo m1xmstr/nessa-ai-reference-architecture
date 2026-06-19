@@ -46,7 +46,7 @@ It documents:
 
 ## Public Access Posture
 
-TryNessa.com is public-facing as a free private AI product. Pro is invite/request-only through [trynessa.com/request-pro](https://www.trynessa.com/request-pro). Ultimate is coming soon.
+TryNessa.com is public-facing as a free private AI product. Pro is invite/request-only through [trynessa.com/request-pro](https://www.trynessa.com/request-pro). Family setup starts after sign-in through the product's Family Hub, with role-aware invites and child-safe defaults.
 
 The public reference architecture documents patterns and lessons. It is not a checkout funnel, billing implementation, or entitlement recipe.
 
@@ -129,6 +129,8 @@ Security release-gate note, 2026-06-19: the public pattern turns prompt/tool inj
 
 Documents trust differentiator note, 2026-06-19: document handling should show private upload scope, organize/search state, redaction readiness, visual QA, retention controls, and security-boundary explanations from real metadata. The public pattern is to expose trust status without leaking storage paths, audit internals, account identifiers, hashes, or connector/security nonces. See [docs/53-documents-trust-differentiator-pattern.md](./docs/53-documents-trust-differentiator-pattern.md).
 
+Public Trust Center note, 2026-06-19: public trust works best as a durable proof hub rather than scattered marketing copy. The pattern is to position the product narrowly as private AI for family life, publish security posture, family safety, data handling, retention controls, reporting paths, changelog, and proof cadence in one public route, and anchor launch proof around Homework Buddy, document trust/redaction, and Linked Devices private compute. See [docs/54-public-trust-center-proof-cadence.md](./docs/54-public-trust-center-proof-cadence.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -155,6 +157,7 @@ See also [docs/48-red-hat-platform-deep-dive.md](./docs/48-red-hat-platform-deep
 See also [docs/49-response-quality-golden-pack.md](./docs/49-response-quality-golden-pack.md).
 See also [docs/52-security-release-gate-pattern.md](./docs/52-security-release-gate-pattern.md).
 See also [docs/53-documents-trust-differentiator-pattern.md](./docs/53-documents-trust-differentiator-pattern.md).
+See also [docs/54-public-trust-center-proof-cadence.md](./docs/54-public-trust-center-proof-cadence.md).
 
 ## Hardware Lab at a Glance
 

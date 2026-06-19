@@ -55,6 +55,7 @@ Start with:
 - [51-private-ai-security-hardening-pattern.md](./51-private-ai-security-hardening-pattern.md)
 - [52-security-release-gate-pattern.md](./52-security-release-gate-pattern.md)
 - [53-documents-trust-differentiator-pattern.md](./53-documents-trust-differentiator-pattern.md)
+- [54-public-trust-center-proof-cadence.md](./54-public-trust-center-proof-cadence.md)
 
 Diagrams:
 
@@ -114,6 +115,7 @@ UX and continuity highlights:
 - [51-private-ai-security-hardening-pattern.md](./51-private-ai-security-hardening-pattern.md)
 - [52-security-release-gate-pattern.md](./52-security-release-gate-pattern.md)
 - [53-documents-trust-differentiator-pattern.md](./53-documents-trust-differentiator-pattern.md)
+- [54-public-trust-center-proof-cadence.md](./54-public-trust-center-proof-cadence.md)
 
 Red Hat platform deep dive:
 
