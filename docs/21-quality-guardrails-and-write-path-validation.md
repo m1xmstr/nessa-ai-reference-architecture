@@ -94,11 +94,16 @@ Document workflows need evidence across the whole lifecycle:
 - documents appear consistently across home and organizer views
 - summaries and search work
 - redaction produces a downloadable artifact and an audit trail
+- trust explanations are backed by live metadata for private upload, organize/search, redaction, visual QA, retention, and security boundaries
+- client APIs expose sanitized trust status without raw storage paths, account identifiers, audit internals, hashes, or connector/security nonces
 - delete behavior matches the actual retention policy
 - generated assets show truthful titles and file sizes
+- generated assets preserve owner-needed continuity metadata without leaking private hashes or raw request internals
 - stored count, loaded count, and displayed count agree
 
 The public lesson is to keep prompt text as metadata when it is needed, not as a long visible filename or user-facing title.
+
+See [53-documents-trust-differentiator-pattern.md](./53-documents-trust-differentiator-pattern.md) for the dedicated public-safe Documents trust pattern.
 
 ## Linked Devices
 

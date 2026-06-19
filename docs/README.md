@@ -54,6 +54,7 @@ Start with:
 - [50-private-chat-archive-storage.md](./50-private-chat-archive-storage.md)
 - [51-private-ai-security-hardening-pattern.md](./51-private-ai-security-hardening-pattern.md)
 - [52-security-release-gate-pattern.md](./52-security-release-gate-pattern.md)
+- [53-documents-trust-differentiator-pattern.md](./53-documents-trust-differentiator-pattern.md)
 
 Diagrams:
 
@@ -112,6 +113,7 @@ UX and continuity highlights:
 - [50-private-chat-archive-storage.md](./50-private-chat-archive-storage.md)
 - [51-private-ai-security-hardening-pattern.md](./51-private-ai-security-hardening-pattern.md)
 - [52-security-release-gate-pattern.md](./52-security-release-gate-pattern.md)
+- [53-documents-trust-differentiator-pattern.md](./53-documents-trust-differentiator-pattern.md)
 
 Red Hat platform deep dive:
 

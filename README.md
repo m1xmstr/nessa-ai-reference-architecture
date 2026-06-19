@@ -127,6 +127,8 @@ Private AI security hardening note, 2026-06-19: the public pattern treats browse
 
 Security release-gate note, 2026-06-19: the public pattern turns prompt/tool injection, cross-account identifier fuzzing, connector replay resistance, and Smart Home scan limits into blocking release evidence. The gate is useful only when it is tied to the exact staged candidate and the run record states which broader checks were or were not performed. See [docs/52-security-release-gate-pattern.md](./docs/52-security-release-gate-pattern.md).
 
+Documents trust differentiator note, 2026-06-19: document handling should show private upload scope, organize/search state, redaction readiness, visual QA, retention controls, and security-boundary explanations from real metadata. The public pattern is to expose trust status without leaking storage paths, audit internals, account identifiers, hashes, or connector/security nonces. See [docs/53-documents-trust-differentiator-pattern.md](./docs/53-documents-trust-differentiator-pattern.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -152,6 +154,7 @@ See also [docs/47-writing-followup-truth-and-result-ui.md](./docs/47-writing-fol
 See also [docs/48-red-hat-platform-deep-dive.md](./docs/48-red-hat-platform-deep-dive.md).
 See also [docs/49-response-quality-golden-pack.md](./docs/49-response-quality-golden-pack.md).
 See also [docs/52-security-release-gate-pattern.md](./docs/52-security-release-gate-pattern.md).
+See also [docs/53-documents-trust-differentiator-pattern.md](./docs/53-documents-trust-differentiator-pattern.md).
 
 ## Hardware Lab at a Glance
 

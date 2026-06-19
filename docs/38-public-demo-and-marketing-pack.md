@@ -114,12 +114,15 @@ Documents are trust-sensitive. The public story should emphasize real behavior:
 - upload and reload must preserve the document
 - search and summary must use the uploaded artifact
 - redaction must create a downloadable result and audit trail
+- visual QA must show when OCR, preview, or extraction confidence needs review
+- private upload, organize/search, redaction, visual QA, retention, and security boundaries should be visible from real metadata
 - generated assets must have honest names and file sizes
 - document counts must agree across surfaces
 - unsupported or oversized files need clear copy
 - deletion and retention claims must match backend behavior
+- document text must be treated as untrusted reference material, not as system/tool instructions
 
-See [08-ocr-ai-vision-public-pattern.md](./08-ocr-ai-vision-public-pattern.md) and [30-nvme-scratch-worker-pattern.md](./30-nvme-scratch-worker-pattern.md).
+See [08-ocr-ai-vision-public-pattern.md](./08-ocr-ai-vision-public-pattern.md), [30-nvme-scratch-worker-pattern.md](./30-nvme-scratch-worker-pattern.md), and [53-documents-trust-differentiator-pattern.md](./53-documents-trust-differentiator-pattern.md).
 
 ## AAP / EDA Release-Gate Lessons
 
