@@ -125,6 +125,8 @@ Private chat archive storage note, 2026-06-17: persisted private AI conversation
 
 Private AI security hardening note, 2026-06-19: the public pattern treats browser-origin checks, bearer-token internal automation, prompt/tool injection, linked-device replay resistance, Smart Home discovery limits, and public-doc redaction as one product-security system. The lesson is to make AI-jacking and token misuse part of normal release proof, not only prompt copy. See [docs/51-private-ai-security-hardening-pattern.md](./docs/51-private-ai-security-hardening-pattern.md).
 
+Security release-gate note, 2026-06-19: the public pattern turns prompt/tool injection, cross-account identifier fuzzing, connector replay resistance, and Smart Home scan limits into blocking release evidence. The gate is useful only when it is tied to the exact staged candidate and the run record states which broader checks were or were not performed. See [docs/52-security-release-gate-pattern.md](./docs/52-security-release-gate-pattern.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -149,6 +151,7 @@ See also [docs/46-worksheet-first-tutor-session-layout.md](./docs/46-worksheet-f
 See also [docs/47-writing-followup-truth-and-result-ui.md](./docs/47-writing-followup-truth-and-result-ui.md).
 See also [docs/48-red-hat-platform-deep-dive.md](./docs/48-red-hat-platform-deep-dive.md).
 See also [docs/49-response-quality-golden-pack.md](./docs/49-response-quality-golden-pack.md).
+See also [docs/52-security-release-gate-pattern.md](./docs/52-security-release-gate-pattern.md).
 
 ## Hardware Lab at a Glance
 

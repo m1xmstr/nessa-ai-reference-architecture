@@ -114,6 +114,12 @@ For math or tutoring flows, gate assertions should be semantic enough to catch t
 
 The public lesson is not the private prompt or parser. The public lesson is that release gates should include replayable, workflow-specific trust checks for known failure classes, and promotion should require those checks for the exact staged digest.
 
+## Security Release Gates
+
+Private AI security gates should be treated as release blockers, not advisory scans. A focused pack can cover prompt/tool injection, cross-account identifier fuzzing, connector replay resistance, and Smart Home scan limits without publishing private routes, payloads, connector internals, account fixtures, or production proof.
+
+See [52-security-release-gate-pattern.md](./52-security-release-gate-pattern.md) for the dedicated public-safe pattern.
+
 ## Owner-First UX Canaries
 
 Owner accounts are high-signal release-test personas because they combine family controls, learning continuation, documents, private compute, and admin-adjacent visibility.
