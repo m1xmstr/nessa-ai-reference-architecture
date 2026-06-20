@@ -131,6 +131,8 @@ Documents trust differentiator note, 2026-06-19: document handling should show p
 
 Public Trust Center note, 2026-06-19: public trust works best as a durable proof hub rather than scattered marketing copy. The pattern is to position the product narrowly as private AI for family life, publish security posture, family safety, data handling, retention controls, reporting paths, changelog, and proof cadence in one public route, and anchor launch proof around Homework Buddy, document trust/redaction, and Linked Devices private compute. See [docs/54-public-trust-center-proof-cadence.md](./docs/54-public-trust-center-proof-cadence.md).
 
+Operational Trust Center scorecards note, 2026-06-19: a Trust Center should include last verified date, known limitations, report path, and measured public-safe gates. The pattern is to show security categories and product quality gates without exposing exploit payloads, account identifiers, device identifiers, private screenshots, or connector internals. See [docs/55-operational-trust-center-scorecards.md](./docs/55-operational-trust-center-scorecards.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -158,6 +160,7 @@ See also [docs/49-response-quality-golden-pack.md](./docs/49-response-quality-go
 See also [docs/52-security-release-gate-pattern.md](./docs/52-security-release-gate-pattern.md).
 See also [docs/53-documents-trust-differentiator-pattern.md](./docs/53-documents-trust-differentiator-pattern.md).
 See also [docs/54-public-trust-center-proof-cadence.md](./docs/54-public-trust-center-proof-cadence.md).
+See also [docs/55-operational-trust-center-scorecards.md](./docs/55-operational-trust-center-scorecards.md).
 
 ## Hardware Lab at a Glance
 
