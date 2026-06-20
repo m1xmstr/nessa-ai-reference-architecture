@@ -135,6 +135,8 @@ Operational Trust Center scorecards note, 2026-06-19: a Trust Center should incl
 
 Safe seeded proof-flow demo note, 2026-06-20: public proof-flow demos should be synthetic, read-only, and explicit about which actions are disabled. The pattern is to let visitors inspect Homework Buddy, Documents, and Linked Devices workflows without live uploads, connector dispatch, network scans, account writes, or invite/payment side effects, then route real actions to sign-in and normal product controls. See [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
 
+Trust Center evidence registry note, 2026-06-20: public trust centers work best when major claims map to a structured evidence registry. The pattern is to render public-safe evidence rows on the Trust Center, expose the same rows through a GET-only JSON endpoint, and tie each row to release runs, proof flows, policies, scorecards, limitations, and sanitized reference docs without exposing private payloads or identifiers. See [docs/57-trust-center-evidence-registry.md](./docs/57-trust-center-evidence-registry.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).

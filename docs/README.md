@@ -58,6 +58,7 @@ Start with:
 - [54-public-trust-center-proof-cadence.md](./54-public-trust-center-proof-cadence.md)
 - [55-operational-trust-center-scorecards.md](./55-operational-trust-center-scorecards.md)
 - [56-safe-seeded-proof-flow-demo-mode.md](./56-safe-seeded-proof-flow-demo-mode.md)
+- [57-trust-center-evidence-registry.md](./57-trust-center-evidence-registry.md)
 
 Diagrams:
 
@@ -120,6 +121,7 @@ UX and continuity highlights:
 - [54-public-trust-center-proof-cadence.md](./54-public-trust-center-proof-cadence.md)
 - [55-operational-trust-center-scorecards.md](./55-operational-trust-center-scorecards.md)
 - [56-safe-seeded-proof-flow-demo-mode.md](./56-safe-seeded-proof-flow-demo-mode.md)
+- [57-trust-center-evidence-registry.md](./57-trust-center-evidence-registry.md)
 
 Red Hat platform deep dive:
 
