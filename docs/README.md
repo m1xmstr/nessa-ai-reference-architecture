@@ -57,6 +57,7 @@ Start with:
 - [53-documents-trust-differentiator-pattern.md](./53-documents-trust-differentiator-pattern.md)
 - [54-public-trust-center-proof-cadence.md](./54-public-trust-center-proof-cadence.md)
 - [55-operational-trust-center-scorecards.md](./55-operational-trust-center-scorecards.md)
+- [56-safe-seeded-proof-flow-demo-mode.md](./56-safe-seeded-proof-flow-demo-mode.md)
 
 Diagrams:
 
@@ -118,6 +119,7 @@ UX and continuity highlights:
 - [53-documents-trust-differentiator-pattern.md](./53-documents-trust-differentiator-pattern.md)
 - [54-public-trust-center-proof-cadence.md](./54-public-trust-center-proof-cadence.md)
 - [55-operational-trust-center-scorecards.md](./55-operational-trust-center-scorecards.md)
+- [56-safe-seeded-proof-flow-demo-mode.md](./56-safe-seeded-proof-flow-demo-mode.md)
 
 Red Hat platform deep dive:
 

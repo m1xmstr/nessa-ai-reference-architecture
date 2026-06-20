@@ -133,6 +133,8 @@ Public Trust Center note, 2026-06-19: public trust works best as a durable proof
 
 Operational Trust Center scorecards note, 2026-06-19: a Trust Center should include last verified date, known limitations, report path, and measured public-safe gates. The pattern is to show security categories and product quality gates without exposing exploit payloads, account identifiers, device identifiers, private screenshots, or connector internals. See [docs/55-operational-trust-center-scorecards.md](./docs/55-operational-trust-center-scorecards.md).
 
+Safe seeded proof-flow demo note, 2026-06-20: public proof-flow demos should be synthetic, read-only, and explicit about which actions are disabled. The pattern is to let visitors inspect Homework Buddy, Documents, and Linked Devices workflows without live uploads, connector dispatch, network scans, account writes, or invite/payment side effects, then route real actions to sign-in and normal product controls. See [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -161,6 +163,7 @@ See also [docs/52-security-release-gate-pattern.md](./docs/52-security-release-g
 See also [docs/53-documents-trust-differentiator-pattern.md](./docs/53-documents-trust-differentiator-pattern.md).
 See also [docs/54-public-trust-center-proof-cadence.md](./docs/54-public-trust-center-proof-cadence.md).
 See also [docs/55-operational-trust-center-scorecards.md](./docs/55-operational-trust-center-scorecards.md).
+See also [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
 
 ## Hardware Lab at a Glance
 
