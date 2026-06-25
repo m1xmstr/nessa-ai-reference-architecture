@@ -80,9 +80,9 @@ The Apple Silicon lane is strongest when the request benefits from:
 
 In product terms, this is why the MacBook Pro M5 Max lane became especially important for worksheet, document, photo, and vision-heavy workflows.
 
-### MTP as a preview lane
+### MTP as a preview lane and scoped Auto capability
 
-Multi-token prediction should start as an owner/advanced preview lane, not a default Fast replacement.
+Multi-token prediction should start as an owner/advanced preview lane, not a default Fast replacement. After full app-route proof, it can become a scoped Auto capability for specific task classes without taking over every workload.
 
 Public-safe rollout pattern:
 
@@ -94,8 +94,11 @@ Public-safe rollout pattern:
 - record the actual route/model used
 - preserve a clear fallback if the preview device is unavailable
 - avoid public claims about a high-speed physical link until topology isolation proves it
+- keep long creative, document, Learning, and other specialized workloads on existing routes until separate proof exists
 
 This lets a private device create a "wow" candidate lane without weakening normal routing, family safety, or privacy boundaries.
+
+See [58-story-finalization-and-scoped-auto-mtp.md](./58-story-finalization-and-scoped-auto-mtp.md) for the companion public pattern on finalization drift and task-scoped Auto-MTP rollout.
 
 ### Stream completion contract
 

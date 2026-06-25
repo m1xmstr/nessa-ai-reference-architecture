@@ -59,6 +59,7 @@ Start with:
 - [55-operational-trust-center-scorecards.md](./55-operational-trust-center-scorecards.md)
 - [56-safe-seeded-proof-flow-demo-mode.md](./56-safe-seeded-proof-flow-demo-mode.md)
 - [57-trust-center-evidence-registry.md](./57-trust-center-evidence-registry.md)
+- [58-story-finalization-and-scoped-auto-mtp.md](./58-story-finalization-and-scoped-auto-mtp.md)
 
 Diagrams:
 
@@ -122,6 +123,7 @@ UX and continuity highlights:
 - [55-operational-trust-center-scorecards.md](./55-operational-trust-center-scorecards.md)
 - [56-safe-seeded-proof-flow-demo-mode.md](./56-safe-seeded-proof-flow-demo-mode.md)
 - [57-trust-center-evidence-registry.md](./57-trust-center-evidence-registry.md)
+- [58-story-finalization-and-scoped-auto-mtp.md](./58-story-finalization-and-scoped-auto-mtp.md)
 
 Red Hat platform deep dive:
 

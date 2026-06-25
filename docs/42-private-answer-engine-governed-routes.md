@@ -78,6 +78,20 @@ Useful checks:
 
 This contract matters for every route, but it is especially important for preview and linked-device lanes because model runtime, transport, gateway, and browser streams can fail independently.
 
+## Finalization And Fallback Drift
+
+Finalization should preserve the answer that matches the request, not blindly prefer the longest postprocessed or fallback text.
+
+Public-safe checks:
+
+- preserve the streamed response as a candidate
+- compare final candidates against the requested task type, topic, protagonist, setting, and format
+- reject unrelated seeded fallback stories, prompt-control leakage, or continuation scaffolding
+- prefer a shorter matching response over a longer drifting response
+- repair stale saved context when a stored assistant answer is corrected
+
+This is the same product contract as route truth: the system should know which answer actually satisfied the user-visible request. See [58-story-finalization-and-scoped-auto-mtp.md](./58-story-finalization-and-scoped-auto-mtp.md).
+
 ## Release Gates
 
 Public-safe gates for a governed Answer Engine include:
@@ -88,6 +102,8 @@ Public-safe gates for a governed Answer Engine include:
 - Basic DOM and debug output contain no raw model or route internals
 - unavailable preview endpoints prove fallback or fail-closed behavior
 - long story and code streams complete or offer continuation
+- finalization and fallback candidates preserve the requested task rather than drifting to unrelated content
+- scoped Auto-MTP is enabled only for task classes with full app-route proof
 - document, photo, Learning, image, and weather truth paths keep their existing specialized routes
 
 The reusable lesson is not the private gate code. The reusable lesson is that a product-grade private AI assistant needs release gates for route privacy and stream truth, not only a benchmark score.

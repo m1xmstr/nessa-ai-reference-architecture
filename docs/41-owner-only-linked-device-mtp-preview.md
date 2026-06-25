@@ -1,6 +1,6 @@
 # Owner-Only Linked-Device MTP Preview Pattern
 
-Last updated: 2026-05-25
+Last updated: 2026-06-25
 
 This document describes a public-safe pattern for using Multi-Token Prediction (MTP) as a private linked-device inference lane.
 
@@ -110,6 +110,20 @@ That rollout shape preserves the product contract:
 - idle telemetry decides whether the runtime should stay resident or be demand-scaled
 
 This is more defensible than turning MTP on everywhere after a benchmark. The full app route has to prove that the faster lane is also a reliable product lane.
+
+## Scoped Auto Promotion
+
+After owner-preview and high-deliberation lanes pass, MTP can enter Auto mode as a task-scoped route rather than a universal default.
+
+The public-safe pattern is:
+
+- enable MTP only for task classes that passed full app-route proof
+- keep long creative writing, documents, Learning, and other specialized routes on their current lanes until separately proved
+- record sanitized route truth, fallback truth, first-token behavior, stream finish state, and final-message persistence
+- watch for single-slot or queueing effects before widening traffic
+- keep child/restricted denial, owner/admin eligibility, and private-compute boundaries intact
+
+This keeps Auto useful without treating a successful benchmark or a single route canary as proof for every workload. See [58-story-finalization-and-scoped-auto-mtp.md](./58-story-finalization-and-scoped-auto-mtp.md).
 
 ## Security Boundary
 

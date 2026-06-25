@@ -137,6 +137,8 @@ Safe seeded proof-flow demo note, 2026-06-20: public proof-flow demos should be 
 
 Trust Center evidence registry note, 2026-06-20: public trust centers work best when major claims map to a structured evidence registry. The pattern is to render public-safe evidence rows on the Trust Center, expose the same rows through a GET-only JSON endpoint, and tie each row to release runs, proof flows, policies, scorecards, limitations, and sanitized reference docs without exposing private payloads or identifiers. See [docs/57-trust-center-evidence-registry.md](./docs/57-trust-center-evidence-registry.md).
 
+Story finalization and scoped Auto-MTP note, 2026-06-25: long creative generation must preserve the requested premise through finalization, and fallbacks should be accepted only when they match the task rather than merely being longer. The same proof discipline now shapes MTP rollout: Auto mode can use MTP for task classes that have passed full app-route proof, while long creative, document, Learning, and other specialized lanes remain on their existing routes until separately proved. See [docs/58-story-finalization-and-scoped-auto-mtp.md](./docs/58-story-finalization-and-scoped-auto-mtp.md).
+
 See [docs/21-quality-guardrails-and-write-path-validation.md](./docs/21-quality-guardrails-and-write-path-validation.md).
 See also [docs/22-model-governance-and-admin-surface-guardrails.md](./docs/22-model-governance-and-admin-surface-guardrails.md).
 See also [docs/23-access-support-and-donation-boundaries.md](./docs/23-access-support-and-donation-boundaries.md).
@@ -166,6 +168,8 @@ See also [docs/53-documents-trust-differentiator-pattern.md](./docs/53-documents
 See also [docs/54-public-trust-center-proof-cadence.md](./docs/54-public-trust-center-proof-cadence.md).
 See also [docs/55-operational-trust-center-scorecards.md](./docs/55-operational-trust-center-scorecards.md).
 See also [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
+See also [docs/57-trust-center-evidence-registry.md](./docs/57-trust-center-evidence-registry.md).
+See also [docs/58-story-finalization-and-scoped-auto-mtp.md](./docs/58-story-finalization-and-scoped-auto-mtp.md).
 
 ## Hardware Lab at a Glance
 

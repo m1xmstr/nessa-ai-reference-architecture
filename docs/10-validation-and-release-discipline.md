@@ -97,6 +97,13 @@ When a run touches inference or routing, validate:
 - fail-closed behavior
 - no silent privacy fallback
 
+For long generation and MTP rollout, also validate:
+
+- final persisted answer still matches the requested task
+- fallback or postprocessed text does not drift to unrelated content
+- scoped Auto routing uses MTP only for task classes that passed app-route proof
+- long creative, document, Learning, and other specialized routes remain unchanged unless specifically validated
+
 ## Documentation Truth
 
 Docs must match live runtime.
