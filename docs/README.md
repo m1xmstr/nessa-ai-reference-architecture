@@ -1,6 +1,6 @@
 # Documentation Index
 
-This directory contains the public-safe Nessa AI Reference Architecture documentation.
+This directory contains the public-safe TryNessa AI Reference Architecture documentation.
 
 Start with:
 

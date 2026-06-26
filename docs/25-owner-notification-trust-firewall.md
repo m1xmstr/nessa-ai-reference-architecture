@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document captures public-safe notification patterns from Nessa AI. It does not publish private routes, source code, phone numbers, chat history, account data, tokens, channel identifiers, or production alert payloads.
+This document captures public-safe notification patterns from TryNessa AI. It does not publish private routes, source code, phone numbers, chat history, account data, tokens, channel identifiers, or production alert payloads.
 
 The core lesson is simple: owner notifications are a trust surface. If every deploy, health check, or automation step pushes a message, the owner learns to ignore all of them.
 

@@ -1,6 +1,6 @@
 # Operational Trust Center Scorecards
 
-Public-safe pattern from Nessa AI, 2026-06-19.
+Public-safe pattern from TryNessa AI, 2026-06-19.
 
 ## Pattern
 

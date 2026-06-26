@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document captures public-safe release-gate patterns from Nessa AI. It does not publish private routes, source code, cluster hostnames, credentials, account data, screenshots, or implementation-specific test users.
+This document captures public-safe release-gate patterns from TryNessa AI. It does not publish private routes, source code, cluster hostnames, credentials, account data, screenshots, or implementation-specific test users.
 
 The core lesson is that a staging-to-production deploy should prove the product users will actually receive, not only that a container rolled out and `/health` returned `ok`.
 

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document explains how Nessa AI uses Red Hat technologies in practical, customer-facing architecture language. It avoids vendor-brochure tone and avoids private TryNessa.com implementation detail.
+This document explains how TryNessa AI uses Red Hat technologies in practical, customer-facing architecture language. It avoids vendor-brochure tone and avoids private TryNessa.com implementation detail.
 
 For a deeper lifecycle view of how OpenShift, OpenShift AI, AAP, EDA, OpenShift Virtualization, ODF/Ceph, and MTP lanes work together, see [48-red-hat-platform-deep-dive.md](./48-red-hat-platform-deep-dive.md).
 

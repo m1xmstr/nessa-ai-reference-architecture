@@ -3,13 +3,13 @@
 ![AI: Private%20AI-blue.svg](https://img.shields.io/badge/AI-Private%20AI-blue.svg)
 ![Architecture: Public%20Reference-orange.svg](https://img.shields.io/badge/Architecture-Public%20Reference-orange.svg)
 
-# Nessa AI Reference Architecture
+# TryNessa AI Reference Architecture
 
 Private family-focused AI platform patterns using Red Hat OpenShift, OpenShift AI, OpenShift Virtualization, Ansible Automation Platform, Event-Driven Ansible, AMD Strix Halo, Apple Silicon, Hugging Face model research, and disciplined staging-to-production validation.
 
-This repository shares the architecture patterns, validation discipline, and platform lessons behind Nessa AI. It does not publish the TryNessa.com product source code or private implementation details.
+This repository shares the architecture patterns, validation discipline, and platform lessons behind TryNessa AI. It does not publish the TryNessa.com product source code or private implementation details.
 
-Nessa AI is a private family-focused AI platform built around a simple principle: AI should help people learn, protect private work, and use user-controlled compute where possible.
+TryNessa AI is a private family-focused AI platform built around a simple principle: AI should help people learn, protect private work, and use user-controlled compute where possible.
 
 > "Our goal is to help people do great things and improve humanity through AI."
 >
@@ -31,7 +31,7 @@ The goal is to show how a small team can build serious private AI infrastructure
 
 ## What This Repo Is
 
-Public reference architecture for Nessa AI / TryNessa.com.
+Public reference architecture for TryNessa AI / TryNessa.com.
 
 It documents:
 
@@ -192,7 +192,7 @@ See [docs/14-hardware-and-model-lab.md](./docs/14-hardware-and-model-lab.md).
 - **Event-Driven Ansible**: event-driven operations, release hooks, and alert or webhook response patterns.
 - **ODF / Ceph**: durable storage patterns for platform state, document storage, workspace storage, and model-serving persistence.
 
-Product names are used factually. This repository does not imply Red Hat endorsement of Nessa AI.
+Product names are used factually. This repository does not imply Red Hat endorsement of TryNessa AI.
 
 For a deeper public-safe explanation of how these products work together, see [docs/48-red-hat-platform-deep-dive.md](./docs/48-red-hat-platform-deep-dive.md).
 

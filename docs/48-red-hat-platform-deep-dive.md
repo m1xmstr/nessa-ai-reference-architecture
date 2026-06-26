@@ -2,7 +2,7 @@
 
 Last updated: 2026-06-04
 
-This page explains how the Red Hat platform pieces fit together in the public Nessa AI reference architecture:
+This page explains how the Red Hat platform pieces fit together in the public TryNessa AI reference architecture:
 
 - Red Hat OpenShift
 - Red Hat OpenShift AI

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document captures public-safe weather-alert notification patterns from Nessa AI. It does not publish private locations, home addresses, user records, exact alert history, source code, credentials, or private notification payloads.
+This document captures public-safe weather-alert notification patterns from TryNessa AI. It does not publish private locations, home addresses, user records, exact alert history, source code, credentials, or private notification payloads.
 
 The core lesson is that weather alerts must not sound official unless they are backed by an active official source. Forecast chatter and owner notifications are different products.
 

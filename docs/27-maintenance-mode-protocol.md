@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document captures public-safe maintenance-mode patterns from Nessa AI. It does not publish private routes, production namespaces, hostnames, IP addresses, account data, notification channels, internal scripts, credentials, or live run artifacts.
+This document captures public-safe maintenance-mode patterns from TryNessa AI. It does not publish private routes, production namespaces, hostnames, IP addresses, account data, notification channels, internal scripts, credentials, or live run artifacts.
 
 The core lesson is simple: maintenance mode is a product state, not just an operator note. If users can see it, the app metadata, app banner, cleanup logic, and owner notifications should all agree.
 

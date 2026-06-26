@@ -1,6 +1,6 @@
 # Hardware and Model Lab
 
-Nessa AI is not only an application pattern. It is also a practical hardware and model-validation program.
+TryNessa AI is not only an application pattern. It is also a practical hardware and model-validation program.
 
 This document explains the public-safe architecture story behind two high-memory local AI systems used in the Nessa reference platform:
 

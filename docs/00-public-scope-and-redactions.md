@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repository is the public, sanitized reference architecture for Nessa AI. It is designed to help builders understand the architecture patterns, Red Hat platform integration, validation discipline, and hardware lessons behind a private family-focused AI platform.
+This repository is the public, sanitized reference architecture for TryNessa AI. It is designed to help builders understand the architecture patterns, Red Hat platform integration, validation discipline, and hardware lessons behind a private family-focused AI platform.
 
 It is not a product-source release and it is not a deployment recipe for TryNessa.com.
 
@@ -103,7 +103,7 @@ Never publish:
 
 Use public-safe names:
 
-- `Nessa AI`
+- `TryNessa AI`
 - `TryNessa.com`
 - `NessaClaw`
 - `OpenClaw-compatible infrastructure`

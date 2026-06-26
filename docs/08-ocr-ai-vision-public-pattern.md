@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document describes public-safe OCR and AI Vision architecture patterns for Nessa AI. It does not publish bypass details, classifier thresholds, hidden prompts, exact OCR repair heuristics, or private user content.
+This document describes public-safe OCR and AI Vision architecture patterns for TryNessa AI. It does not publish bypass details, classifier thresholds, hidden prompts, exact OCR repair heuristics, or private user content.
 
 ## Intake Pattern
 

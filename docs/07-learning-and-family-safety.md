@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Learning / Homework Buddy is a core Nessa AI product pillar. This public document describes the teaching and safety philosophy without exposing proprietary lesson-flow logic.
+Learning / Homework Buddy is a core TryNessa AI product pillar. This public document describes the teaching and safety philosophy without exposing proprietary lesson-flow logic.
 
 ## Product Principle
 

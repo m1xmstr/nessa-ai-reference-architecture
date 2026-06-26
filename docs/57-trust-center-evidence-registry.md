@@ -1,6 +1,6 @@
 # Trust Center Evidence Registry
 
-Public-safe pattern from Nessa AI, 2026-06-20.
+Public-safe pattern from TryNessa AI, 2026-06-20.
 
 ## Pattern
 

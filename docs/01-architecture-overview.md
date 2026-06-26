@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document describes the public-safe Nessa AI platform architecture. It is intentionally high level. It explains the control-plane shape, Red Hat platform roles, inference lanes, validation posture, and privacy boundaries without publishing TryNessa.com product source code or private implementation details.
+This document describes the public-safe TryNessa AI platform architecture. It is intentionally high level. It explains the control-plane shape, Red Hat platform roles, inference lanes, validation posture, and privacy boundaries without publishing TryNessa.com product source code or private implementation details.
 
 ## Conceptual Flow
 

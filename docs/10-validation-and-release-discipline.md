@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document captures the public-safe release discipline behind Nessa AI. It focuses on evidence habits, not private routes, accounts, tokens, or production topology.
+This document captures the public-safe release discipline behind TryNessa AI. It focuses on evidence habits, not private routes, accounts, tokens, or production topology.
 
 ## Core Rule
 

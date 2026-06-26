@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document explains Nessa AI inference lanes at an architecture level. It intentionally avoids private routing heuristics, hardware IDs, live IPs, account identifiers, connector internals, and exact model-selection rules.
+This document explains TryNessa AI inference lanes at an architecture level. It intentionally avoids private routing heuristics, hardware IDs, live IPs, account identifiers, connector internals, and exact model-selection rules.
 
 ## Lane Summary
 

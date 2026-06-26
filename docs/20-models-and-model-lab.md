@@ -1,6 +1,6 @@
 # Models and Model Lab
 
-This page is the public-safe Nessa AI model page.
+This page is the public-safe TryNessa AI model page.
 
 It explains representative model families, current validated model names, why those models are useful, and what was tested before they were discussed publicly. It intentionally does not publish private Auto routing rules, Pro entitlement behavior, prompt chains, Secure Connector internals, private eval suites, account-specific model selection, secrets, hostnames, IP addresses, device IDs, or complete live inventory.
 

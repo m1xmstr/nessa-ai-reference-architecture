@@ -21,9 +21,9 @@ It does not publish or license:
 - private infrastructure
 - unpublished Nessa operations code
 
-## Nessa AI and TryNessa.com
+## TryNessa AI and TryNessa.com
 
-Nessa AI / TryNessa.com is a private family-focused AI platform.
+TryNessa AI / TryNessa.com is a private family-focused AI platform.
 
 This repository documents public-safe architecture patterns and lessons learned. It is not the product source code.
 
@@ -47,13 +47,13 @@ Home Assistant is an upstream open-source smart-home project:
 - GitHub organization: https://github.com/home-assistant
 - Core repository: https://github.com/home-assistant/core
 
-Nessa Smart Home uses Home Assistant where practical as a hub and integration model. Home Assistant remains its own project; Nessa does not imply ownership of Home Assistant or its upstream integrations. Home Assistant source code is not republished in this reference repo.
+TryNessa Smart Home uses Home Assistant where practical as a hub and integration model. Home Assistant remains its own project; TryNessa does not imply ownership of Home Assistant or its upstream integrations. Home Assistant source code is not republished in this reference repo.
 
 ## Red Hat Product Names
 
 Red Hat, OpenShift, OpenShift AI, OpenShift Virtualization, Ansible Automation Platform, Event-Driven Ansible, OpenShift Data Foundation, and related marks are trademarks or registered trademarks of Red Hat, Inc. or its subsidiaries.
 
-Product names are referenced factually to describe architecture patterns. Do not imply Red Hat sponsorship, endorsement, ownership of Nessa, or certification of Nessa AI unless formally approved and separately documented.
+Product names are referenced factually to describe architecture patterns. Do not imply Red Hat sponsorship, endorsement, ownership of TryNessa, or certification of TryNessa AI unless formally approved and separately documented.
 
 ## Third-Party Technologies
 

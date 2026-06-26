@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This document captures public-safe release-documentation patterns from Nessa AI. It does not publish private runbooks, production route names, internal artifact payloads, account data, screenshots, credentials, or private repository history.
+This document captures public-safe release-documentation patterns from TryNessa AI. It does not publish private runbooks, production route names, internal artifact payloads, account data, screenshots, credentials, or private repository history.
 
 The core lesson is simple: a release is not closed just because production is healthy. The active handoff docs, run history, release runbook, artifact index, and public stewardship record also need to agree.
 
