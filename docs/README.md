@@ -60,6 +60,7 @@ Start with:
 - [56-safe-seeded-proof-flow-demo-mode.md](./56-safe-seeded-proof-flow-demo-mode.md)
 - [57-trust-center-evidence-registry.md](./57-trust-center-evidence-registry.md)
 - [58-story-finalization-and-scoped-auto-mtp.md](./58-story-finalization-and-scoped-auto-mtp.md)
+- [59-learning-visual-artifacts-and-private-compute-truth.md](./59-learning-visual-artifacts-and-private-compute-truth.md)
 
 Diagrams:
 
@@ -124,6 +125,7 @@ UX and continuity highlights:
 - [56-safe-seeded-proof-flow-demo-mode.md](./56-safe-seeded-proof-flow-demo-mode.md)
 - [57-trust-center-evidence-registry.md](./57-trust-center-evidence-registry.md)
 - [58-story-finalization-and-scoped-auto-mtp.md](./58-story-finalization-and-scoped-auto-mtp.md)
+- [59-learning-visual-artifacts-and-private-compute-truth.md](./59-learning-visual-artifacts-and-private-compute-truth.md)
 
 Red Hat platform deep dive:
 

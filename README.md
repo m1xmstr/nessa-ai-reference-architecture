@@ -133,6 +133,8 @@ Public Trust Center note, 2026-06-19: public trust works best as a durable proof
 
 Operational Trust Center scorecards note, 2026-06-19: a Trust Center should include last verified date, known limitations, report path, and measured public-safe gates. The pattern is to show security categories and product quality gates without exposing exploit payloads, account identifiers, device identifiers, private screenshots, or connector internals. See [docs/55-operational-trust-center-scorecards.md](./docs/55-operational-trust-center-scorecards.md).
 
+Learning visual and private-compute truth note, 2026-07-10: generated graphs, coordinate plots, and chemistry atom-count boards should be parsed from explicit problem structure, saved as account-scoped learning artifacts, and proved through real staging requests. Linked Devices should lead with owner priority, privacy, readiness, verified contribution, and fallback truth; two direct USB4/Thunderbolt paths should never be described as one automatically combined pipe. See [docs/59-learning-visual-artifacts-and-private-compute-truth.md](./docs/59-learning-visual-artifacts-and-private-compute-truth.md).
+
 Safe seeded proof-flow demo note, 2026-06-20: public proof-flow demos should be synthetic, read-only, and explicit about which actions are disabled. The pattern is to let visitors inspect Homework Buddy, Documents, and Linked Devices workflows without live uploads, connector dispatch, network scans, account writes, or invite/payment side effects, then route real actions to sign-in and normal product controls. See [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
 
 Trust Center evidence registry note, 2026-06-20: public trust centers work best when major claims map to a structured evidence registry. The pattern is to render public-safe evidence rows on the Trust Center, expose the same rows through a GET-only JSON endpoint, and tie each row to release runs, proof flows, policies, scorecards, limitations, and sanitized reference docs without exposing private payloads or identifiers. See [docs/57-trust-center-evidence-registry.md](./docs/57-trust-center-evidence-registry.md).
@@ -167,6 +169,7 @@ See also [docs/52-security-release-gate-pattern.md](./docs/52-security-release-g
 See also [docs/53-documents-trust-differentiator-pattern.md](./docs/53-documents-trust-differentiator-pattern.md).
 See also [docs/54-public-trust-center-proof-cadence.md](./docs/54-public-trust-center-proof-cadence.md).
 See also [docs/55-operational-trust-center-scorecards.md](./docs/55-operational-trust-center-scorecards.md).
+See also [docs/59-learning-visual-artifacts-and-private-compute-truth.md](./docs/59-learning-visual-artifacts-and-private-compute-truth.md).
 See also [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
 See also [docs/57-trust-center-evidence-registry.md](./docs/57-trust-center-evidence-registry.md).
 See also [docs/58-story-finalization-and-scoped-auto-mtp.md](./docs/58-story-finalization-and-scoped-auto-mtp.md).
