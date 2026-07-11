@@ -135,6 +135,8 @@ Operational Trust Center scorecards note, 2026-06-19: a Trust Center should incl
 
 Learning visual and private-compute truth note, 2026-07-10: generated graphs, coordinate plots, and chemistry atom-count boards should be parsed from explicit problem structure, saved as account-scoped learning artifacts, and proved through real staging requests. Linked Devices should lead with owner priority, privacy, readiness, verified contribution, and fallback truth; two direct USB4/Thunderbolt paths should never be described as one automatically combined pipe. See [docs/59-learning-visual-artifacts-and-private-compute-truth.md](./docs/59-learning-visual-artifacts-and-private-compute-truth.md).
 
+Deterministic artifact and Learning recovery note, 2026-07-11: generated code and structured files should pass a type-specific parser and an independent task-fit check before the UI calls them verified. Missing Learning materials should follow an owner-scoped, checksum-backed recovery ladder; uncertain matches stay unrecovered, and irrecoverable sessions leave active views through the documented archive/delete lifecycle. See [docs/60-deterministic-artifact-and-learning-recovery.md](./docs/60-deterministic-artifact-and-learning-recovery.md).
+
 Safe seeded proof-flow demo note, 2026-06-20: public proof-flow demos should be synthetic, read-only, and explicit about which actions are disabled. The pattern is to let visitors inspect Homework Buddy, Documents, and Linked Devices workflows without live uploads, connector dispatch, network scans, account writes, or invite/payment side effects, then route real actions to sign-in and normal product controls. See [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
 
 Trust Center evidence registry note, 2026-06-20: public trust centers work best when major claims map to a structured evidence registry. The pattern is to render public-safe evidence rows on the Trust Center, expose the same rows through a GET-only JSON endpoint, and tie each row to release runs, proof flows, policies, scorecards, limitations, and sanitized reference docs without exposing private payloads or identifiers. See [docs/57-trust-center-evidence-registry.md](./docs/57-trust-center-evidence-registry.md).
@@ -170,6 +172,7 @@ See also [docs/53-documents-trust-differentiator-pattern.md](./docs/53-documents
 See also [docs/54-public-trust-center-proof-cadence.md](./docs/54-public-trust-center-proof-cadence.md).
 See also [docs/55-operational-trust-center-scorecards.md](./docs/55-operational-trust-center-scorecards.md).
 See also [docs/59-learning-visual-artifacts-and-private-compute-truth.md](./docs/59-learning-visual-artifacts-and-private-compute-truth.md).
+See also [docs/60-deterministic-artifact-and-learning-recovery.md](./docs/60-deterministic-artifact-and-learning-recovery.md).
 See also [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
 See also [docs/57-trust-center-evidence-registry.md](./docs/57-trust-center-evidence-registry.md).
 See also [docs/58-story-finalization-and-scoped-auto-mtp.md](./docs/58-story-finalization-and-scoped-auto-mtp.md).
@@ -324,6 +327,7 @@ Primary public reference docs:
 - [docs/18-camera-ux-design.md](./docs/18-camera-ux-design.md)
 - [docs/29-dual-sideband-transfer-pattern.md](./docs/29-dual-sideband-transfer-pattern.md)
 - [docs/44-structured-recipe-discovery-pattern.md](./docs/44-structured-recipe-discovery-pattern.md)
+- [docs/60-deterministic-artifact-and-learning-recovery.md](./docs/60-deterministic-artifact-and-learning-recovery.md)
 
 Diagrams:
 
