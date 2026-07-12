@@ -137,6 +137,8 @@ Learning visual and private-compute truth note, 2026-07-10: generated graphs, co
 
 Deterministic artifact and Learning recovery note, 2026-07-11: generated code and structured files should pass a type-specific parser and an independent task-fit check before the UI calls them verified. Missing Learning materials should follow an owner-scoped, checksum-backed recovery ladder; uncertain matches stay unrecovered, and irrecoverable sessions leave active views through the documented archive/delete lifecycle. See [docs/60-deterministic-artifact-and-learning-recovery.md](./docs/60-deterministic-artifact-and-learning-recovery.md).
 
+Responsive action-menu and release-gate truth note, 2026-07-12: disclosure menus inside scrollable action rows need opened-state mobile proof because DOM visibility does not prevent ancestor clipping. Revision finalizers should preserve valid user-authored sign-offs, and release gates should normalize presentation details that are not part of the product contract while remaining tied to the exact packaged candidate. See [docs/61-responsive-action-menus-and-gate-truth.md](./docs/61-responsive-action-menus-and-gate-truth.md).
+
 Safe seeded proof-flow demo note, 2026-06-20: public proof-flow demos should be synthetic, read-only, and explicit about which actions are disabled. The pattern is to let visitors inspect Homework Buddy, Documents, and Linked Devices workflows without live uploads, connector dispatch, network scans, account writes, or invite/payment side effects, then route real actions to sign-in and normal product controls. See [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
 
 Trust Center evidence registry note, 2026-06-20: public trust centers work best when major claims map to a structured evidence registry. The pattern is to render public-safe evidence rows on the Trust Center, expose the same rows through a GET-only JSON endpoint, and tie each row to release runs, proof flows, policies, scorecards, limitations, and sanitized reference docs without exposing private payloads or identifiers. See [docs/57-trust-center-evidence-registry.md](./docs/57-trust-center-evidence-registry.md).
@@ -173,6 +175,7 @@ See also [docs/54-public-trust-center-proof-cadence.md](./docs/54-public-trust-c
 See also [docs/55-operational-trust-center-scorecards.md](./docs/55-operational-trust-center-scorecards.md).
 See also [docs/59-learning-visual-artifacts-and-private-compute-truth.md](./docs/59-learning-visual-artifacts-and-private-compute-truth.md).
 See also [docs/60-deterministic-artifact-and-learning-recovery.md](./docs/60-deterministic-artifact-and-learning-recovery.md).
+See also [docs/61-responsive-action-menus-and-gate-truth.md](./docs/61-responsive-action-menus-and-gate-truth.md).
 See also [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
 See also [docs/57-trust-center-evidence-registry.md](./docs/57-trust-center-evidence-registry.md).
 See also [docs/58-story-finalization-and-scoped-auto-mtp.md](./docs/58-story-finalization-and-scoped-auto-mtp.md).

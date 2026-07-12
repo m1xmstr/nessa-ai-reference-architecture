@@ -62,6 +62,7 @@ Start with:
 - [58-story-finalization-and-scoped-auto-mtp.md](./58-story-finalization-and-scoped-auto-mtp.md)
 - [59-learning-visual-artifacts-and-private-compute-truth.md](./59-learning-visual-artifacts-and-private-compute-truth.md)
 - [60-deterministic-artifact-and-learning-recovery.md](./60-deterministic-artifact-and-learning-recovery.md)
+- [61-responsive-action-menus-and-gate-truth.md](./61-responsive-action-menus-and-gate-truth.md)
 
 Diagrams:
 
@@ -128,6 +129,7 @@ UX and continuity highlights:
 - [58-story-finalization-and-scoped-auto-mtp.md](./58-story-finalization-and-scoped-auto-mtp.md)
 - [59-learning-visual-artifacts-and-private-compute-truth.md](./59-learning-visual-artifacts-and-private-compute-truth.md)
 - [60-deterministic-artifact-and-learning-recovery.md](./60-deterministic-artifact-and-learning-recovery.md)
+- [61-responsive-action-menus-and-gate-truth.md](./61-responsive-action-menus-and-gate-truth.md)
 
 Red Hat platform deep dive:
 
