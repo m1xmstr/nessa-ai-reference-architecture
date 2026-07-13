@@ -139,6 +139,8 @@ Deterministic artifact and Learning recovery note, 2026-07-11: generated code an
 
 Responsive action-menu and release-gate truth note, 2026-07-12: disclosure menus inside scrollable action rows need opened-state mobile proof because DOM visibility does not prevent ancestor clipping. Revision finalizers should preserve valid user-authored sign-offs, and release gates should normalize presentation details that are not part of the product contract while remaining tied to the exact packaged candidate. See [docs/61-responsive-action-menus-and-gate-truth.md](./docs/61-responsive-action-menus-and-gate-truth.md).
 
+Visible-mode and internal-runtime separation note, 2026-07-12: a user-facing response mode and an internal inference runtime need independent policy switches. Retired explicit requests should resolve to a supported visible mode with no explicit route lock, while governed Auto or Thinking routing may continue using the healthy internal runtime. Release gates must assert the visible-mode contract instead of assuming that any later use of the internal runtime means the retired mode was honored. See [docs/62-visible-mode-and-internal-runtime-separation.md](./docs/62-visible-mode-and-internal-runtime-separation.md).
+
 Safe seeded proof-flow demo note, 2026-06-20: public proof-flow demos should be synthetic, read-only, and explicit about which actions are disabled. The pattern is to let visitors inspect Homework Buddy, Documents, and Linked Devices workflows without live uploads, connector dispatch, network scans, account writes, or invite/payment side effects, then route real actions to sign-in and normal product controls. See [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
 
 Trust Center evidence registry note, 2026-06-20: public trust centers work best when major claims map to a structured evidence registry. The pattern is to render public-safe evidence rows on the Trust Center, expose the same rows through a GET-only JSON endpoint, and tie each row to release runs, proof flows, policies, scorecards, limitations, and sanitized reference docs without exposing private payloads or identifiers. See [docs/57-trust-center-evidence-registry.md](./docs/57-trust-center-evidence-registry.md).
@@ -176,6 +178,7 @@ See also [docs/55-operational-trust-center-scorecards.md](./docs/55-operational-
 See also [docs/59-learning-visual-artifacts-and-private-compute-truth.md](./docs/59-learning-visual-artifacts-and-private-compute-truth.md).
 See also [docs/60-deterministic-artifact-and-learning-recovery.md](./docs/60-deterministic-artifact-and-learning-recovery.md).
 See also [docs/61-responsive-action-menus-and-gate-truth.md](./docs/61-responsive-action-menus-and-gate-truth.md).
+See also [docs/62-visible-mode-and-internal-runtime-separation.md](./docs/62-visible-mode-and-internal-runtime-separation.md).
 See also [docs/56-safe-seeded-proof-flow-demo-mode.md](./docs/56-safe-seeded-proof-flow-demo-mode.md).
 See also [docs/57-trust-center-evidence-registry.md](./docs/57-trust-center-evidence-registry.md).
 See also [docs/58-story-finalization-and-scoped-auto-mtp.md](./docs/58-story-finalization-and-scoped-auto-mtp.md).

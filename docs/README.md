@@ -63,6 +63,7 @@ Start with:
 - [59-learning-visual-artifacts-and-private-compute-truth.md](./59-learning-visual-artifacts-and-private-compute-truth.md)
 - [60-deterministic-artifact-and-learning-recovery.md](./60-deterministic-artifact-and-learning-recovery.md)
 - [61-responsive-action-menus-and-gate-truth.md](./61-responsive-action-menus-and-gate-truth.md)
+- [62-visible-mode-and-internal-runtime-separation.md](./62-visible-mode-and-internal-runtime-separation.md)
 
 Diagrams:
 
@@ -130,6 +131,7 @@ UX and continuity highlights:
 - [59-learning-visual-artifacts-and-private-compute-truth.md](./59-learning-visual-artifacts-and-private-compute-truth.md)
 - [60-deterministic-artifact-and-learning-recovery.md](./60-deterministic-artifact-and-learning-recovery.md)
 - [61-responsive-action-menus-and-gate-truth.md](./61-responsive-action-menus-and-gate-truth.md)
+- [62-visible-mode-and-internal-runtime-separation.md](./62-visible-mode-and-internal-runtime-separation.md)
 
 Red Hat platform deep dive:
 
