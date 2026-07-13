@@ -64,6 +64,7 @@ Start with:
 - [60-deterministic-artifact-and-learning-recovery.md](./60-deterministic-artifact-and-learning-recovery.md)
 - [61-responsive-action-menus-and-gate-truth.md](./61-responsive-action-menus-and-gate-truth.md)
 - [62-visible-mode-and-internal-runtime-separation.md](./62-visible-mode-and-internal-runtime-separation.md)
+- [63-location-aware-tool-latency-and-mobile-actions.md](./63-location-aware-tool-latency-and-mobile-actions.md)
 
 Diagrams:
 
@@ -132,6 +133,7 @@ UX and continuity highlights:
 - [60-deterministic-artifact-and-learning-recovery.md](./60-deterministic-artifact-and-learning-recovery.md)
 - [61-responsive-action-menus-and-gate-truth.md](./61-responsive-action-menus-and-gate-truth.md)
 - [62-visible-mode-and-internal-runtime-separation.md](./62-visible-mode-and-internal-runtime-separation.md)
+- [63-location-aware-tool-latency-and-mobile-actions.md](./63-location-aware-tool-latency-and-mobile-actions.md)
 
 Red Hat platform deep dive:
 
