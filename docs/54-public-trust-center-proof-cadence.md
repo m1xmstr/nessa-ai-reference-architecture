@@ -1,5 +1,7 @@
 # Public Trust Center and Proof Cadence Pattern
 
+> **Current-boundary update (August 28, 2026):** current public proof flows are Learning, Chat continuity, and Linked Devices through Secure Connector. References below to Documents or Family administration are historical; see [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 Date: 2026-06-19
 
 This public-safe pattern documents how a private family AI product can make trust reviewable without exposing private source code, account data, connector internals, prompts, secrets, or production topology.

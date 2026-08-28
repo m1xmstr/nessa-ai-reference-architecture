@@ -1,5 +1,7 @@
 # Public Demo and Marketing Pack
 
+> **Archived product snapshot:** This May 2026 pack is preserved for history. Its Documents, Family Controls, Nessa Now, and broader-product claims are not current ordinary-user offers. Use [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md) for current wording.
+
 This pack is the public-safe story for TryNessa AI: private family AI on OpenShift, useful daily workflows, and disciplined proof before promotion.
 
 It is meant for demos, public GitHub readers, founder walkthroughs, and technical conversations. It intentionally avoids private accounts, live routes, hostnames, IP addresses, cluster UUIDs, internal prompts, proprietary lesson-state logic, connector internals, screenshots from private users, and security-sensitive operational detail.

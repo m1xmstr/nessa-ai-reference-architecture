@@ -1,5 +1,7 @@
 # Documents Trust Differentiator Pattern
 
+> **Archived capability pattern:** A separate Documents organizer/redaction surface is not currently offered to ordinary TryNessa users. Keep this as a requalification pattern only; see [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 ## Purpose
 
 Documents are one of the fastest ways for a private AI product to earn or lose trust. This pattern describes a public-safe way to make document handling feel accountable: private upload, organize/search, redaction, visual QA, retention controls, and security explanations all need to be visible from real document state.
@@ -135,4 +137,3 @@ Use synthetic documents only. Good demo files include:
 - a generated image with a harmless prompt
 
 Never use private customer files, live proof screenshots, private logs, or exact storage traces in public demos.
-

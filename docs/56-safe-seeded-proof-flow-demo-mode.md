@@ -2,6 +2,8 @@
 
 Public-safe pattern from TryNessa AI, 2026-06-20.
 
+> **Current-boundary update (August 28, 2026):** the live seeded demo now uses Learning, Chat continuity, and Linked Devices. The Documents example below is retained only as the original historical pattern. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 ## Pattern
 
 A public product demo should prove the intended workflow without pretending to run live private actions.

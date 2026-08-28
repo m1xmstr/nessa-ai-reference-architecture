@@ -1,5 +1,7 @@
 # Public Demo Scripts
 
+> **Archived product snapshot:** These scripts reflect the May 2026 product story. Do not reuse Documents, Family Controls, Smart Home, NessaClaw, or other retired claims as current advertising. Use [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 These scripts are public-safe. They use synthetic examples and avoid private accounts, private screenshots, internal routes, hostnames, IP addresses, tokens, logs, and cluster console views.
 
 ## 60-Second Founder Demo

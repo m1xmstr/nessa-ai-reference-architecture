@@ -1,5 +1,7 @@
 # Public Demo Gallery and Launch Checklist
 
+> **Archived product snapshot:** This gallery and checklist are preserved as historical launch material. Current public demos must use Learning, Chat continuity, and Linked Devices through Secure Connector. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 This gallery contains synthetic demo material that is safe for public walkthroughs. It should be used instead of private screenshots, private accounts, real family documents, real homework sessions, or production console views.
 
 ## Demo Gallery

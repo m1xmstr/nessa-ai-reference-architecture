@@ -4,6 +4,7 @@ This directory contains the public-safe TryNessa AI Reference Architecture docum
 
 Start with:
 
+- [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md)
 - [00-public-scope-and-redactions.md](./00-public-scope-and-redactions.md)
 - [01-architecture-overview.md](./01-architecture-overview.md)
 - [02-red-hat-stack.md](./02-red-hat-stack.md)
@@ -73,7 +74,7 @@ Diagrams:
 - [diagrams/linked-devices-pattern.md](./diagrams/linked-devices-pattern.md)
 - [diagrams/nessaclaw-boundary.md](./diagrams/nessaclaw-boundary.md)
 
-Supplemental historical docs remain available for context. They should be treated as sanitized background material and checked against [00-public-scope-and-redactions.md](./00-public-scope-and-redactions.md) before public reuse.
+Supplemental historical docs remain available for context. They are reference or archive material—not current availability claims—and must be checked against [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md) and [00-public-scope-and-redactions.md](./00-public-scope-and-redactions.md) before public reuse.
 
 Hardware and model-lab highlights:
 
