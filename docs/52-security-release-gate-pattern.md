@@ -1,5 +1,7 @@
 # Security Release Gate Pattern
 
+> **Current-boundary note:** document, Smart Home, and agent-workspace fixtures are retained as historical/owner-only security coverage. They are not current ordinary-user offers. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 Public-safe date: 2026-06-19
 
 This note documents a public-safe release-gate pattern for private AI security. It intentionally omits private hostnames, routes, source code, prompts, account identifiers, credentials, digests, connector protocols, production proof artifacts, and operational runbooks.

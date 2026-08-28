@@ -1,5 +1,7 @@
 # Operational Trust Center Scorecards
 
+> **Current-boundary update (August 28, 2026):** current public proof centers on Learning, Chat continuity, and Linked Devices through Secure Connector. Document, Smart Home, Family, and agent-workspace rows below are historical scorecard examples, not current ordinary-user availability claims. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 Public-safe pattern from TryNessa AI, 2026-06-19.
 
 ## Pattern
@@ -49,7 +51,7 @@ Public-safe rows should match real flagship workflows:
 | Gate | Public description |
 |---|---|
 | Homework Buddy | Worksheet upload, guided help, parent summary, progress memory, and anti-cheat boundaries. |
-| Documents | Private upload, organize/search, redaction, visual QA, retention controls, and security explanations. |
+| Archived Documents example | Historical private upload, organize/search, redaction, visual QA, retention controls, and security explanations. |
 | Linked Devices | Setup, health, privacy, workload status, and honest fallback for private compute at home. |
 
 ## UI Stability Gate

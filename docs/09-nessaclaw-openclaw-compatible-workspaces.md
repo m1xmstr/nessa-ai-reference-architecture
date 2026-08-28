@@ -1,10 +1,12 @@
 # NessaClaw and OpenClaw-Compatible Workspaces
 
+> **Archived capability pattern:** NessaClaw/OpenClaw-compatible workspaces are not part of the current ordinary-user TryNessa offer. This page preserves a public-safe design and attribution reference for possible future owner-only requalification. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 ## Purpose
 
 This document explains NessaClaw in public-safe terms.
 
-NessaClaw is Nessa's guarded private agent-workspace surface.
+NessaClaw was the product name used for a guarded private agent-workspace experiment.
 
 OpenClaw is an upstream open-source project. Nessa references it plainly and does not claim ownership of it.
 
@@ -22,7 +24,7 @@ Do not imply that Nessa owns upstream OpenClaw.
 
 ## Public-Safe Product Model
 
-NessaClaw is private agent workspaces powered by Nessa guardrails and OpenClaw-compatible infrastructure.
+The historical positioning was: NessaClaw is private agent workspaces powered by TryNessa guardrails and OpenClaw-compatible infrastructure.
 
 The user interacts with Nessa:
 
@@ -74,7 +76,7 @@ Examples of high-impact categories:
 
 OpenClaw is an open-source project.
 
-NessaClaw is Nessa's guarded product layer around Nessa auth, policy, storage, audit, safety, and workspace controls.
+In the archived pattern, NessaClaw was TryNessa's guarded layer around authentication, policy, storage, audit, safety, and workspace controls.
 
 If any OpenClaw-derived code, manifests, docs, or examples are copied or adapted into this repo, preserve upstream copyright and MIT license notices.
 

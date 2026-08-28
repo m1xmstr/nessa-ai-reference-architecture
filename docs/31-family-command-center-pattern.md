@@ -1,5 +1,7 @@
 # Family Command Center Pattern
 
+> **Archived capability pattern:** Family administration and a multi-surface command center are not part of the current ordinary-user TryNessa offer. This page preserves a historical UX pattern for possible future requalification. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 This note documents a public-safe pattern for turning a private family AI product home screen into a daily command center instead of a blank chatbot prompt.
 
 The product question is simple:

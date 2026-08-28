@@ -41,8 +41,8 @@ It documents:
 - Red Hat product integration across OpenShift, OpenShift AI, OpenShift Virtualization, AAP, EDA, and ODF/Ceph
 - private-AI inference lane design across cluster GPU, CPU fallback, Apple Silicon Linked Devices, and BYO-AI concepts
 - validation discipline, staging-before-production release habits, browser proof expectations, and exact-digest promotion mindset
-- public-safe family AI, Learning, OCR/vision, Linked Devices, and NessaClaw boundary patterns
-- Smart Home patterns using Home Assistant as the open-source hub where practical
+- public-safe family AI, Learning, OCR/vision, Linked Devices, and archived NessaClaw boundary patterns
+- archived Smart Home patterns using Home Assistant as the open-source hub where practical
 - mobile UX and generated-artifact continuity patterns for private AI products
 - sanitized lessons from running a private AI product on real hardware
 
@@ -95,10 +95,10 @@ The production product has evolved beyond the original CPU-first cluster. Curren
 - Apple Silicon Linked Devices, including M3 Max as an earlier reference and M5 Max with 128 GB unified memory as the current high-memory private compute lane
 - GPT-OSS 120B class experimentation on Apple Silicon with fail-closed route truth
 - OCR and AI Vision emphasis on private Apple Silicon and vision-language model testing
-- Smart Home as a simple household operations surface, with Home Assistant used where it helps connect real devices and a one-glance `House right now` answer before detailed cards
+- an archived Smart Home reference pattern, with Home Assistant used where it helped connect real devices and a one-glance `House right now` answer before detailed cards
 - Hugging Face model research with validation before promotion
 - fail-closed privacy posture when a requested private route is unavailable
-- NessaClaw as Nessa's guarded private agent-workspace surface over OpenClaw-compatible infrastructure, starting with safe missions and an always-visible stop control
+- an archived NessaClaw/OpenClaw-compatible workspace pattern, retained for possible owner-only requalification rather than advertised as a current user surface
 - family-safe Learning and Homework Buddy principles, including study-companion workflow patterns, without exposing lesson-flow implementation
 
 Recent public-safe validation note, 2026-05-13: Nessa's private release process expanded into staging-only write-path, document, family-control, linked-device, security, mobile, Learning/Homework Buddy, study-companion, tutor intent anchoring, workflow-specific Learning quality canaries, owner-first UX gates, Learning continuation-link truth, attachment-context truth, model-governance, access/support/referral, response-quality, release-truth, canary, owner-notification, weather-alert truth, maintenance-mode protocol, and release-runbook truth-sync proof suites. The public lesson is simple: a private AI product needs proof for what users can save, delete, invite, upload, select, learn, resume, archive, regenerate, support, refer, administrate, read legally, receive in production, see during maintenance, recover from stale links, and attach to current files, not only proof that a model can answer. Public docs intentionally omit private routes, account data, connector internals, prompt chains, lesson-flow internals, billing internals, exact routing heuristics, private notification routes, private locations, and production test artifacts.
@@ -253,26 +253,26 @@ Linked Devices are a public-safe pattern for user-owned private compute:
 
 See [docs/04-linked-devices-public-pattern.md](./docs/04-linked-devices-public-pattern.md) and [docs/05-secure-connector-public-boundary.md](./docs/05-secure-connector-public-boundary.md).
 
-## Smart Home and Home Assistant
+## Archived Smart Home and Home Assistant Pattern
 
-Nessa Smart Home is meant to answer simple household questions quickly:
+This historical reference pattern described a Nessa Smart Home surface that answered simple household questions quickly. Smart Home is not part of the current ordinary-user offer:
 
 - is the internet okay?
 - are cameras and core devices reachable?
 - what changed since the last check?
 - can a parent see the important status without becoming a network engineer?
 
-Home Assistant is the open-source smart-home project Nessa uses where practical as a hub and integration model. Nessa recognizes and links upstream projects plainly instead of presenting community work as Nessa-owned work.
+Home Assistant is the upstream open-source smart-home project used by that pattern. TryNessa recognizes and links upstream projects plainly instead of presenting community work as TryNessa-owned work.
 
 See [docs/15-smart-home-and-home-assistant.md](./docs/15-smart-home-and-home-assistant.md).
 
-## NessaClaw / OpenClaw-Compatible Private Agent Workspaces
+## Archived NessaClaw / OpenClaw-Compatible Workspace Pattern
 
-NessaClaw is Nessa's guarded private agent-workspace surface.
+NessaClaw was the name used for a guarded private agent-workspace experiment. It is not part of the current ordinary-user offer; the reference is retained for possible future owner-only requalification.
 
 OpenClaw is the upstream open-source project: https://github.com/openclaw/openclaw
 
-NessaClaw adds the Nessa layer: authentication, entitlement, policy, storage, audit, safety, and kill-switch controls.
+The historical pattern added a TryNessa layer for authentication, entitlement, policy, storage, audit, safety, and kill-switch controls.
 
 Public positioning:
 
@@ -296,7 +296,7 @@ The public pattern is:
 - teach, do not only answer
 - guide step by step
 - preserve age and family appropriateness
-- support worksheets, photos, and documents with privacy-first routing where possible
+- support worksheet/photo context and attachments inside Learning or Chat with privacy-first routing where available
 - treat trust failures as P0 defects
 - anchor help to the specific visible problem and correct OCR/vision ambiguity before answering
 - turn worksheets into a short plan and visible problem focus before launching into generic help
@@ -369,7 +369,7 @@ This repository is licensed under the Apache License 2.0. It covers only the pub
 
 It does not publish or license the private TryNessa.com product source code, Secure Connector internals, production configuration, tenant logic, private routing heuristics, account flows, proprietary Learning/Homework Buddy implementation, secrets, credentials, or private infrastructure.
 
-Nessa recognizes the open-source projects it builds around or integrates with, including Home Assistant and OpenClaw. NessaClaw is Nessa's guarded product surface; OpenClaw remains the upstream project. Smart Home uses Home Assistant where practical; Home Assistant remains its own open-source project. Preserve upstream license notices when third-party material is copied or adapted.
+TryNessa recognizes the open-source projects referenced by current and archived patterns, including Home Assistant and OpenClaw. Archived NessaClaw references describe a guarded TryNessa integration pattern while OpenClaw remains the upstream project. Archived Smart Home references used Home Assistant where practical; Home Assistant remains its own open-source project. Preserve upstream license notices when third-party material is copied or adapted.
 
 Red Hat, OpenShift, OpenShift AI, OpenShift Virtualization, Ansible Automation Platform, Event-Driven Ansible, and related marks are trademarks of Red Hat, Inc. Product names are used factually.
 

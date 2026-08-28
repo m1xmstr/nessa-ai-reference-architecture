@@ -1,5 +1,7 @@
 # NVMe Scratch Worker Pattern
 
+> **Current-boundary note:** this infrastructure pattern includes historical document/redaction examples. A separate Documents organizer or redaction workflow is not currently offered to ordinary TryNessa users. Current attachments remain inside Chat or Learning when supported. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 This note documents a public-safe pattern for using a node-local NVMe drive to accelerate heavy document, OCR, vision, redaction, and generated-asset post-processing work while keeping canonical artifacts on durable shared storage.
 
 The important design choice is separation of concerns:
@@ -102,7 +104,7 @@ Observed proof from production-style fixtures:
 - a broader workflow probe showed gains for worksheet-photo and image-batch processing
 - small text and generated PDF probes did not improve because worker hop overhead exceeded any storage benefit
 - scratch cleanup removed staged job files after each run
-- canonical artifacts remained available through the normal Documents workflow
+- canonical artifacts remained available through the then-current Documents workflow
 
 The correct conclusion is not "everything gets faster." The correct conclusion is "OCR/image-heavy scratch workloads can benefit, tiny or CPU-bound work should stay on the simpler path."
 

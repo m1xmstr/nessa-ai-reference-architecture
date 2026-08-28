@@ -1,5 +1,7 @@
 # Camera UX Design Pattern
 
+> **Archived capability pattern:** camera and Smart Home controls are not part of the current ordinary-user TryNessa offer. This page is a historical UX reference only. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 Public reference architecture note: this page describes the design pattern only. It intentionally omits private device names, network addresses, hostnames, usernames, paths, credentials, and routing details.
 
 ## Calm Smart Home Structure

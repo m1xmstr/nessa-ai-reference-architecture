@@ -1,6 +1,8 @@
 # NessaClaw Design Philosophy
 
-NessaClaw is the Nessa product surface for guarded private agent workspaces over OpenClaw-compatible infrastructure.
+> **Archived capability pattern:** NessaClaw is not part of the current ordinary-user TryNessa offer. This design philosophy is retained for possible future owner-only requalification. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
+NessaClaw was the TryNessa experiment for guarded private agent workspaces over OpenClaw-compatible infrastructure.
 
 The public lesson is simple: powerful agent systems should not open with infrastructure dials.
 

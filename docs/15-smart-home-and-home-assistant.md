@@ -1,6 +1,8 @@
 # Smart Home and Home Assistant
 
-Nessa Smart Home is built for real households, not lab demos.
+> **Archived capability pattern:** Smart Home controls are not part of the current ordinary-user TryNessa offer. This page preserves a public-safe design and upstream-attribution reference for possible future requalification. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
+This historical Nessa Smart Home pattern was designed for real households, not as a lab demo.
 
 The goal is simple:
 
@@ -14,7 +16,7 @@ The goal is simple:
 
 Home Assistant is one of the strongest open-source smart-home projects in the world. It already understands a wide range of devices, hubs, automations, cameras, sensors, lights, switches, fans, scenes, scripts, and buttons.
 
-Nessa uses Home Assistant where practical instead of pretending every device integration should be built from scratch. Home Assistant source and API behavior are reviewed as upstream open-source project material; Home Assistant source code is not republished in this reference repo.
+The archived pattern used Home Assistant where practical instead of pretending every device integration should be built from scratch. Home Assistant source and API behavior are reviewed as upstream open-source project material; Home Assistant source code is not republished in this reference repo.
 
 Public upstream links:
 

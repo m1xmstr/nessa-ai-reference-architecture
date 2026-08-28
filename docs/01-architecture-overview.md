@@ -1,5 +1,7 @@
 # Architecture Overview
 
+> **Current-boundary note (August 28, 2026):** the ordinary-user product is Chat, Learning/Homework Buddy/Study Help, saved Chat History, and Linked Devices through Secure Connector. Document workflows, Family administration, Smart Home, NessaClaw, and similar labs appear here only as historical or owner-operated architecture patterns. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 ## Purpose
 
 This document describes the public-safe TryNessa AI platform architecture. It is intentionally high level. It explains the control-plane shape, Red Hat platform roles, inference lanes, validation posture, and privacy boundaries without publishing TryNessa.com product source code or private implementation details.
@@ -31,7 +33,7 @@ flowchart LR
 
 ### User and product layer
 
-TryNessa.com is the product entry point. The product layer owns user experience, authentication, family context, Learning workflows, document workflows, Smart Home surfaces, NessaClaw, and visible trust boundaries.
+TryNessa.com is the product entry point. The current ordinary-user layer owns Chat, Learning continuity, saved Chat History, Linked Devices through Secure Connector, authentication, and visible trust boundaries. Historical document, Family, Smart Home, and NessaClaw patterns are retained in this repository for requalification—not as current availability claims.
 
 This repo does not publish product implementation.
 

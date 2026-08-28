@@ -1,5 +1,7 @@
 # Owner-First Release Gates
 
+> **Owner-only historical pattern:** this page describes release checks for broader owner surfaces. It does not claim that Documents, Family administration, Smart Home, NessaClaw, or other retired labs are available to ordinary users. See [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 This note documents a public-safe pattern for catching premium-home, route-truth, recovery, and weather-copy failures before a private family AI release reaches production.
 
 It intentionally does not publish private account data, screenshots, production routes, session IDs, gate source code, cluster hostnames, cookies, prompts, or internal implementation details.

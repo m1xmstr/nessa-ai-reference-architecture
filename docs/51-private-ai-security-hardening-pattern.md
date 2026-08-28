@@ -1,5 +1,7 @@
 # Private AI Security Hardening Pattern
 
+> **Current-boundary note:** document-library, Smart Home, and agent-workspace examples are retained as historical threat-model coverage, not current ordinary-user availability claims. Current public product scope is defined in [CURRENT_PRODUCT_BOUNDARY.md](./CURRENT_PRODUCT_BOUNDARY.md).
+
 Public-safe date: 2026-06-19
 
 This note documents a public-safe security pattern for a private family AI product. It intentionally omits private hostnames, routes, source code, prompts, account identifiers, credentials, digests, connector protocols, production proof artifacts, and operational runbooks.
@@ -132,4 +134,3 @@ Security can be a product differentiator when it is visible as calm trust, not f
 - backed by staging-to-production proof
 
 That is more defensible than presenting another generic chatbot.
-

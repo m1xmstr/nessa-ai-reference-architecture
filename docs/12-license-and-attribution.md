@@ -31,9 +31,9 @@ This repository documents public-safe architecture patterns and lessons learned.
 
 OpenClaw is an upstream open-source project: https://github.com/openclaw/openclaw
 
-NessaClaw is Nessa's guarded product surface built around Nessa authentication, entitlement, policy, storage, audit, and safety controls over OpenClaw-compatible infrastructure.
+NessaClaw is the historical TryNessa name for an archived guarded-workspace pattern built around authentication, entitlement, policy, storage, audit, and safety controls over OpenClaw-compatible infrastructure. It is not a current ordinary-user offer.
 
-OpenClaw remains upstream/technical attribution where referenced. NessaClaw is the Nessa product/integration surface.
+OpenClaw remains upstream/technical attribution where referenced. NessaClaw references in this repository describe the archived TryNessa integration pattern.
 
 If any OpenClaw MIT-licensed code, documentation, manifests, or examples are copied or adapted into this repository, preserve their original MIT notices and upstream copyright notices. Do not relicense upstream MIT material as Apache-only.
 
@@ -47,7 +47,7 @@ Home Assistant is an upstream open-source smart-home project:
 - GitHub organization: https://github.com/home-assistant
 - Core repository: https://github.com/home-assistant/core
 
-TryNessa Smart Home uses Home Assistant where practical as a hub and integration model. Home Assistant remains its own project; TryNessa does not imply ownership of Home Assistant or its upstream integrations. Home Assistant source code is not republished in this reference repo.
+The archived TryNessa Smart Home pattern used Home Assistant where practical as a hub and integration model. Home Assistant remains its own project; TryNessa does not imply ownership of Home Assistant or its upstream integrations. Home Assistant source code is not republished in this reference repo.
 
 ## Red Hat Product Names
 
