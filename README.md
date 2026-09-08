@@ -46,6 +46,10 @@ It documents:
 - mobile UX and generated-artifact continuity patterns for private AI products
 - sanitized lessons from running a private AI product on real hardware
 
+## A focused workflow from the product portfolio
+
+Our [source-backed intake workflow note](./docs/64-source-backed-intake-workflow.md) explains an application-controlled evidence and review pattern used in [AiZipZap Intake](https://aizipzap.com/agent?utm_source=github&utm_medium=reference&utm_campaign=intake_launch). AiZipZap is a separate customer-intake product; its rule-based redaction utility remains available. This does not change TryNessa's standard family-product boundary.
+
 ## Public Access Posture
 
 TryNessa.com is public-facing as a free private AI product. Pro is invite/request-only through [trynessa.com/request-pro](https://www.trynessa.com/request-pro). Signed-in users can use Chat, Learning, saved Chat History, and Linked Devices; Pro may include scoped, time-limited trusted-device sharing when manually granted.

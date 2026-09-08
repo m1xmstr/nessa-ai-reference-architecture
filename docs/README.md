@@ -66,6 +66,7 @@ Start with:
 - [61-responsive-action-menus-and-gate-truth.md](./61-responsive-action-menus-and-gate-truth.md)
 - [62-visible-mode-and-internal-runtime-separation.md](./62-visible-mode-and-internal-runtime-separation.md)
 - [63-location-aware-tool-latency-and-mobile-actions.md](./63-location-aware-tool-latency-and-mobile-actions.md)
+- [64-source-backed-intake-workflow.md](./64-source-backed-intake-workflow.md)
 
 Diagrams:
 
