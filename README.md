@@ -52,6 +52,8 @@ Our [source-backed intake workflow note](./docs/64-source-backed-intake-workflow
 
 ## Public Access Posture
 
+For a practical coding example, see [From generated code to a verified automation](./docs/65-generated-code-to-verified-automation.md). It follows a real TryNessa draft through error feedback, review and independently checked Ansible execution, with an actual-screen video and downloadable examples.
+
 TryNessa.com is public-facing as a free private AI product. Pro is invite/request-only through [trynessa.com/request-pro](https://www.trynessa.com/request-pro). Signed-in users can use Chat, Learning, saved Chat History, and Linked Devices; Pro may include scoped, time-limited trusted-device sharing when manually granted.
 
 The public reference architecture documents patterns and lessons. It is not a checkout funnel, billing implementation, or entitlement recipe.
