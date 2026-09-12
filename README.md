@@ -9,7 +9,7 @@ Private family-focused AI platform patterns using Red Hat OpenShift, OpenShift A
 
 This repository shares the architecture patterns, validation discipline, and platform lessons behind TryNessa AI. It does not publish the TryNessa.com product source code or private implementation details.
 
-> **Current product boundary (August 28, 2026):** ordinary signed-in TryNessa users have Chat, Learning/Homework Buddy/Study Help, saved Chat History, and Linked Devices through Secure Connector. Documents, Family administration, Smart Home, NessaClaw, AI Tools, image-generation labs, and Specialties are owner-operated, disabled, archived, or reference patterns—not general-user offers unless explicitly enabled. See [Current Product Boundary](./docs/CURRENT_PRODUCT_BOUNDARY.md).
+> **Current product boundary (September 12, 2026):** TryNessa offers useful free Chat and Learning with finite usage, plus monthly Family, Pro and Family Pro capacity plans. Linked Devices remain user-controlled. Owner labs and historical architecture examples do not become public features through a subscription. See [Current Product Boundary](./docs/CURRENT_PRODUCT_BOUNDARY.md) and [bounded plans and billing reliability](./docs/66-bounded-plans-and-billing-reliability.md).
 
 TryNessa AI is a private family-focused AI platform built around a simple principle: AI should help people learn, protect private work, and use user-controlled compute where possible.
 
