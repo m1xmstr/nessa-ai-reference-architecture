@@ -1,6 +1,6 @@
 # Useful free products and bounded monthly plans
 
-Verified September 12, 2026. These are public product offers, separate from the architecture examples in this repository. Prices are USD per month; the linked product pages define current allowances and terms.
+Historical offer snapshot from September 12, 2026; not a current pricing catalog. Follow each live product page for current availability. These are public product offers, separate from the architecture examples in this repository. Prices are USD per month; the linked product pages define current allowances and terms.
 
 | Product | Free first result | Monthly plans |
 | --- | --- | --- |

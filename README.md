@@ -17,6 +17,14 @@ TryNessa AI is a private family-focused AI platform built around a simple princi
 >
 > Matt Faust, 2026-05-03
 
+## Latest engineering update — October 6, 2026
+
+[Verified inference and operations lessons](docs/67-verified-inference-and-operations-lessons.md)
+covers M5 Max MTP qualification, worker retirement and availability, truthful
+knowledge freshness and web sources, image safeguards, predictable scheduled
+messages, and storage/backup validation. The summary distinguishes historical
+proof from current health and recovered service from permanent hardware repair.
+
 ## Why This Repo Is Different
 
 This is not a slide-deck architecture sketch. It is a public-safe record of a real private AI platform that has been built, broken, benchmarked, repaired, and hardened over many production runs.
@@ -54,7 +62,7 @@ Our [source-backed intake workflow note](./docs/64-source-backed-intake-workflow
 
 For a practical coding example, see [From generated code to a verified automation](./docs/65-generated-code-to-verified-automation.md). It follows a real TryNessa draft through error feedback, review and independently checked Ansible execution, with an actual-screen video and downloadable examples.
 
-TryNessa.com is public-facing as a free private AI product. Pro is invite/request-only through [trynessa.com/request-pro](https://www.trynessa.com/request-pro). Signed-in users can use Chat, Learning, saved Chat History, and Linked Devices; Pro may include scoped, time-limited trusted-device sharing when manually granted.
+TryNessa.com provides free Chat and Learning with finite allowances and optional monthly capacity plans, as described in the dated [current product boundary](docs/CURRENT_PRODUCT_BOUNDARY.md). The [live plan page](https://www.trynessa.com/pricing) defines current offers and limits. Scoped trusted-device sharing, where manually granted, is a separate permission; a subscription does not grant shell, filesystem or private-network access.
 
 The public reference architecture documents patterns and lessons. It is not a checkout funnel, billing implementation, or entitlement recipe.
 

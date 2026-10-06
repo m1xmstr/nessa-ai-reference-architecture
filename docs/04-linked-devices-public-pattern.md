@@ -1,5 +1,7 @@
 # Linked Devices Public Pattern
 
+October 6 update: see [verified inference lessons](67-verified-inference-and-operations-lessons.md) for subsequent MTP qualification, independent-worker retirement and personal-laptop availability. The preview sections below describe promotion discipline, not a current serving inventory.
+
 ## Purpose
 
 Linked Devices are Nessa's public concept for private user-owned compute. This document describes the pattern without publishing Secure Connector internals or private routing logic.
@@ -31,7 +33,7 @@ The Apple Silicon lane is especially useful for:
 
 This lane complements the Strix Halo OpenShift worker. The Strix Halo node is platform infrastructure. The MacBook Pro is a user-approved private endpoint.
 
-## Private MTP Preview Lane
+## Historical MTP preview qualification pattern
 
 MTP can be treated as a private linked-device inference lane instead of a default production model route.
 

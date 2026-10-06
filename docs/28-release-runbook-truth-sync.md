@@ -36,6 +36,17 @@ Useful format:
 
 Not every private change belongs in a public repo. Security-sensitive internals, account behavior, exact routing logic, private screenshots, and production payloads should stay private. The important part is to make the decision explicit.
 
+## Verify remote publication
+
+Fetch and check the actual remote default-branch revision after pushing. Verify
+that it contains every shipped source commit and that reviewed evidence is tracked,
+including files under normally ignored artifact folders. Never solve an ignored
+proof folder by publishing all raw artifacts. Confirm repository visibility and
+inspect public content separately from private source.
+
+Keep the landing README and local start-here document pointed at current state.
+Old checkouts and clean but stale secondary clones are not proof of remote state.
+
 ## Run History Hygiene
 
 Run-history ledgers are high-trust operator surfaces. Avoid vague placeholders in final rows.
