@@ -17,7 +17,15 @@ TryNessa AI is a private family-focused AI platform built around a simple princi
 >
 > Matt Faust, 2026-05-03
 
-## Latest engineering update — October 6, 2026
+## Latest product update — November 12, 2026
+
+[Four focused AI workflows](docs/68-outcome-focused-ai-products.md) explains the
+customer jobs, preservation boundaries and business hypotheses behind the new
+PRIORITYmicro operations desk, XpressContact enquiry capture, AiZipZap follow-up
+desk and TryNessa guided tasks. The direction is being tested against real use
+and purchases; it is not a profitability claim.
+
+## Engineering update — October 6, 2026
 
 [Verified inference and operations lessons](docs/67-verified-inference-and-operations-lessons.md)
 covers M5 Max MTP qualification, worker retirement and availability, truthful
