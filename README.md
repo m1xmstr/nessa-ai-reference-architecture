@@ -17,7 +17,14 @@ TryNessa AI is a private family-focused AI platform built around a simple princi
 >
 > Matt Faust, 2026-05-03
 
-## Latest product update — November 12, 2026
+## Latest conversion release — November 12, 2026
+
+[Mobile checkout and a useful first task](docs/69-mobile-checkout-and-first-use.md)
+records the four-product onboarding improvements, actual sandbox purchase and
+cancellation proof, responsive testing and its limits. Existing cards and accounts
+are preserved. Sandbox tests are not customer revenue or proof of profitability.
+
+## Product direction — November 12, 2026
 
 [Four focused AI workflows](docs/68-outcome-focused-ai-products.md) explains the
 customer jobs, preservation boundaries and business hypotheses behind the new

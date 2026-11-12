@@ -4,6 +4,8 @@ This directory contains the public-safe TryNessa AI Reference Architecture docum
 
 Start with:
 
+- [69-mobile-checkout-and-first-use.md](./69-mobile-checkout-and-first-use.md)
+
 - [68-outcome-focused-ai-products.md](./68-outcome-focused-ai-products.md)
 
 - [66-bounded-plans-and-billing-reliability.md](./66-bounded-plans-and-billing-reliability.md)
