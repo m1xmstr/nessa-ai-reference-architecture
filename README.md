@@ -17,6 +17,10 @@ TryNessa AI is a private family-focused AI platform built around a simple princi
 >
 > Matt Faust, 2026-05-03
 
+## Deployment readiness and upstream options — November 25, 2026
+
+Use a twelve-area worksheet and a fictional library example to estimate readiness and prioritize validation. The companion guide compares OKD, AWX and other community projects by the work it takes to operate them. [Readiness scoring method](docs/70-deployment-readiness.md) · [Upstream platform options](docs/71-upstream-platform-options.md)
+
 ## Latest conversion release — November 12, 2026
 
 [Mobile checkout and a useful first task](docs/69-mobile-checkout-and-first-use.md)

@@ -2,6 +2,11 @@
 
 This directory contains the public-safe TryNessa AI Reference Architecture documentation.
 
+## November 25, 2026
+
+- [Readiness scoring method and fictional example](70-deployment-readiness.md)
+- [Community alternatives to the Red Hat stack](71-upstream-platform-options.md)
+
 Start with:
 
 - [69-mobile-checkout-and-first-use.md](./69-mobile-checkout-and-first-use.md)
